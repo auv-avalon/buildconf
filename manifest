@@ -15,7 +15,9 @@ layout:
   - avalon/orogen/asv
   - supervision
   - scripts
-
+  - drivers/dfki_imu
+  - libs/ins_filter
+  - drivers/orogen/dfki_imu
 exclude_packages:
   - ocl
   - gui/vizkit

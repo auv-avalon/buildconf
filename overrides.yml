@@ -4,19 +4,7 @@
 overrides:
   - avalon/orogen/motionEstimation:
       branch: ModelBased
-  - avalon/orogen/buoydetector:
-      branch: visual_detectors
-  - drivers/orogen/sonar_tritech:
+  - drivers/dfki_imu:
       branch: master
-  - image_processing/orogen/offshore_pipeline_detector:
-      branch: avalon
-  - slam/quater_ikf:
-      commit: ebb0234654c9f66e96c86e3e7eb13894a41d73c6
-  - avalon/orogen/sysmon:
-      commit: d3c07768a4f7e9c63467bee072877cf1859cb98c
-  - drivers/iodrivers_base:
+  - libs/ins_filter: 
       branch: master
-  - drivers/sonar_tritech:
-      branch: cleanup
-  - drivers/orogen/sonar_tritech:
-      branch: cleanup
