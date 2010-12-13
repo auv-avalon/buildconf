@@ -4,11 +4,13 @@
 #   the DFKI internal packagesets published on spacegit.dfki.uni-bremen.de
 
 package_sets:
+  # Rock Toolchain - contains already package sets for rock.base
   - type:     git
     branch:   master
     url:      $GITORIOUS_ROOT/rock-toolchain/package_set.git
     push_to:  $GITORIOUS_PUSH_ROOT/rock-toolchain/package_set.git
 
 layout:
+  - rock.base
   - rock.toolchain
 
