@@ -12,11 +12,10 @@ package_sets:
   # AVALON 
   - type:     git
     branch:   master
-    url:      $GITORIOUS_ROOT/avalon/package_set.git
-    push_to:  $GITORIOUS_PUSH_ROOT/avalon/package_set.git
+    url:      $SPACEGIT_ROOT/avalon/package_set.git
+    push_to:  $SPACEGIT_PUSH_ROOT/avalon/package_set.git
 
 layout:
-  - rock.base
   - rock.toolchain
   - avalon
 
