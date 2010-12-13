@@ -4,21 +4,11 @@
 #   the DFKI internal packagesets published on spacegit.dfki.uni-bremen.de
 
 package_sets:
-  # ROCK BASE
-  - type:     git
-    branch:   master
-    url:      $GITORIOUS_ROOT/rock-base/package_set.git
-    push_to:  $GITORIOUS_PUSH_ROOT/rock-base/package_set.git
   # ROCK TOOLCHAIN
   - type:     git
     branch:   master
     url:      $GITORIOUS_ROOT/rock-toolchain/package_set.git
     push_to:  $GITORIOUS_PUSH_ROOT/rock-toolchain/package_set.git
-  # ROCK DRIVERS
-  - type:     git
-    branch:   master
-    url:      $GITORIOUS_ROOT/rock-drivers/package_set.git
-    push_to:  $GITORIOUS_PUSH_ROOT/rock-drivers/package_set.git
   # ROCK DFKI
   - type:     git
     branch:   master
@@ -26,8 +16,6 @@ package_sets:
     push_to:  $SPACEGIT_PUSH_ROOT/rock-dfki/package_set.git
 
 layout:
-  - rock.base
   - rock.toolchain
-  - rock.drivers
   - rock.dfki
 
