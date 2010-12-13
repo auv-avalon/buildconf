@@ -9,13 +9,14 @@ package_sets:
     branch:   master
     url:      $GITORIOUS_ROOT/rock-toolchain/package_set.git
     push_to:  $GITORIOUS_PUSH_ROOT/rock-toolchain/package_set.git
-  # ROCK DFKI
+  # AVALON 
   - type:     git
     branch:   master
-    url:      $SPACEGIT_ROOT/rock-dfki/package_set.git
-    push_to:  $SPACEGIT_PUSH_ROOT/rock-dfki/package_set.git
+    url:      $GITORIOUS_ROOT/avalon/package_set.git
+    push_to:  $GITORIOUS_PUSH_ROOT/avalon/package_set.git
 
 layout:
+  - rock.base
   - rock.toolchain
-  - rock.dfki
+  - avalon
 
