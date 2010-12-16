@@ -16,6 +16,10 @@ package_sets:
     push_to:  $SPACEGIT_PUSH_ROOT/avalon/package_set.git
 
 layout:
+  - rock.base
   - rock.toolchain
+  - rock.dfki
   - avalon
 
+exclude_packages:
+  - ocl
