@@ -24,3 +24,4 @@ layout:
 exclude_packages:
   - ocl
   - communication/*
+  - simulation/*
