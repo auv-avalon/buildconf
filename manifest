@@ -18,7 +18,7 @@ package_sets:
 layout:
   - rock.base
   - rock.toolchain
-  - rock.dfki
+#  - rock.dfki #we dont wont all from there drivers should be resolved by the orogen(modules)
   - avalon
 
 exclude_packages:
