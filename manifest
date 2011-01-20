@@ -20,6 +20,8 @@ layout:
   - rock.toolchain
 #  - rock.dfki #we dont wont all from there drivers should be resolved by the orogen(modules)
   - avalon
+  - gui/vizkit
+  - gui/rock_widget_collection
 
 exclude_packages:
   - ocl
