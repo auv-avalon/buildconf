@@ -21,7 +21,11 @@
 # Since it seems that the http method for gitorious servers is more stable, a
 # fallback importer is set up that falls back to using http for pulling as soon
 # as import failed
-def handle_gitorious_server(name, base_url)
+def handle_gitorious_server(name, base_url, options = Hash.new)
+
+    options = Kernel.validate_options options,
+        :fallback_to_http => true
+
     gitorious_long_doc = [
         "Access method to import data from #{base_url} (git, http or ssh)",
         "Use 'ssh' only if you have an account there. Note that",
@@ -47,9 +51,9 @@ def handle_gitorious_server(name, base_url)
 
     # If running on a recent enough autobuild version, register a fallback to
     # use http when git fails
-    if Autobuild::Importer.respond_to?(:fallback)
+    if Autobuild::Importer.respond_to?(:fallback) && options[:fallback_to_http]
         Autobuild::Importer.fallback do |package, importer|
-            root_rx = /^(?:http:\/\/git\.|git:\/\/|git@)#{Regexp.quote(base_url)}/
+            root_rx = /^(?:http:\/\/git\.|git:\/\/|git@)#{Regexp.quote(base_url)}:?/
             if importer.kind_of?(Autobuild::Git) && importer.repository =~ root_rx && importer.repository !~ /^http/
                 Autoproj.warn "import from #{importer.repository} failed, falling back to using http for all packages on #{base_url}"
                 Autobuild::Package.each do |pkg_name, pkg|
