@@ -22,6 +22,7 @@ layout:
   - avalon
   - gui/vizkit
   - gui/rock_widget_collection
+#  - drivers/orogen/controldev
 
 exclude_packages:
   - ocl

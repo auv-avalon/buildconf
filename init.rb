@@ -38,10 +38,10 @@ ignore(/\.sw?$/)
 # Ignore the numerous backup files
 ignore(/~$/)
 
-require "./autoproj/gitorious"
+require "autoproj/gitorious"
 
-handle_gitorious_server('GITORIOUS', 'gitorious.com')
-handle_gitorious_server('SPACEGIT', 'spacegit.dfki.uni-bremen.de')
+Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
+Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de')
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 Autoproj.change_option('ROCK_FLAVOR', 'master')
