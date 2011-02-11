@@ -15,6 +15,12 @@ package_sets:
     url:      $SPACEGIT_ROOT/avalon/package_set.git
     push_to:  $SPACEGIT_PUSH_ROOT/avalon/package_set.git
 
+  # MARS Simulation
+  - type:     git
+    branch:   master
+    url:      $SPACEGIT_ROOT/mars/package_set.git
+    push_to:  $SPACEGIT_PUSH_ROOT/mars/package_set.git
+
 layout:
   - rock.base
   - rock.toolchain
@@ -22,9 +28,11 @@ layout:
   - avalon
   - gui/vizkit
   - gui/rock_widget_collection
+  - simulation/mars
+  - simulation/orogen/mars_core
 #  - drivers/orogen/controldev
 
 exclude_packages:
   - ocl
-  - communication/*
-  - simulation/*
+  #- communication/*
+  #- simulation/*
