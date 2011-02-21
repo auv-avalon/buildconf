@@ -40,6 +40,7 @@ ignore(/~$/)
 
 require "autoproj/gitorious"
 
+
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de')
 
