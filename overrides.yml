@@ -1,2 +1,7 @@
 # This file has the same format than the source.yml files. It can be used to
 # locally override version control information.
+
+overrides:
+  - avalon/ekf_slam:
+      branch: withoutIMU_withSpeed
+
