@@ -20,9 +20,11 @@ PRODUCTION_PACKAGES = [
     'orocos/base',
     'orocos/rtt',
     'orocos/logger',
-    "avalon/stateEstimator", 
-    "avalon/orogen/stateEstimator", 
-    'orocos/logger'
+    'avalon/stateEstimator', 
+    'avalon/orogen/stateEstimator', 
+    'orocos/logger',
+    'avalon/orogen/ekfSLAM',
+    'avalon/ekf_slam'
     ]
 
 RELWITHDEBUG_PACKAGES = []
