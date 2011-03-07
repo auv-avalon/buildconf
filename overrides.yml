@@ -4,4 +4,6 @@
 overrides:
   - avalon/ekf_slam:
       branch: withoutIMU_withSpeed
+  - avalon/orogen/motionEstimation:
+      branch: PWMBased
 
