@@ -15,6 +15,13 @@ package_sets:
     url:      $SPACEGIT_ROOT/avalon/package_set.git
     push_to:  $SPACEGIT_PUSH_ROOT/avalon/package_set.git
 
+  # CUSLAM 
+  - type:     git
+    branch:   master
+    url:      $SPACEGIT_ROOT/cuslam/package_set.git
+    push_to:  $SPACEGIT_PUSH_ROOT/cuslam/package_set.git
+
+
   # MARS Simulation
   - type:     git
     branch:   master
@@ -30,6 +37,7 @@ layout:
   - gui/rock_widget_collection
   - simulation/mars
   - simulation/orogen/mars_core
+  - image_processing/orogen/buoy_detector
 #  - drivers/orogen/controldev
 
 exclude_packages:
