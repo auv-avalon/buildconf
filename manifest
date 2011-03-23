@@ -38,6 +38,7 @@ layout:
   - simulation/mars
   - simulation/orogen/mars_core
   - image_processing/orogen/buoy_detector
+  - tools/image_preprocessing
 #  - drivers/orogen/controldev
 
 exclude_packages:
