@@ -33,6 +33,7 @@ layout:
   - rock.toolchain
 #  - rock.dfki #we dont wont all from there drivers should be resolved by the orogen(modules)
   - avalon
+  - image_processing/orogen/offshore_pipeline_detector
   - gui/vizkit
   - gui/rock_widget_collection
   - simulation/mars
