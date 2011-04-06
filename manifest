@@ -40,6 +40,7 @@ layout:
   - simulation/mars
   - simulation/orogen/mars_core
   - image_processing/orogen/buoy_detector
+  - tools/frame_sync
   - tools/image_preprocessing
 #  - drivers/orogen/controldev
 
