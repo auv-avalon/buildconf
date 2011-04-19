@@ -37,5 +37,8 @@ Autobuild::Package.each do |name, pkg|
     elsif pkg.kind_of?(Autobuild::CMake)
         pkg.define "CMAKE_BUILD_TYPE", "Debug"
     end
+    if pkg.name == 'external/opencv' 
+        pkg.define "BUILD_EXAMPLES", "OFF"
+    end
 end
 
