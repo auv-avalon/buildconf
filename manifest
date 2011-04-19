@@ -40,12 +40,17 @@ layout:
   - gui/rock_widget_collection
   - simulation/mars
   - simulation/orogen/mars_core
-  - image_processing/orogen/buoy_detector
+#  - image_processing/orogen/buoy_detector
   - tools/frame_sync
 #  - drivers/orogen/controldev
 #
 
 exclude_packages:
   - ocl
+  - external/opencv # Baut nicht
+  - tools/image_preprocessing # _Baut nicht wegen opencv
+  - avalon/imageHandling # aut nicht wegen opencv
+  - image_processing/buoy_detector #Baut auch nicht
+  - image_processing/orogen/buoy_detector #Kaputt
   #- communication/*
   #- simulation/*
