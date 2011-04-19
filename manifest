@@ -53,5 +53,6 @@ exclude_packages:
   - image_processing/buoy_detector #Baut auch nicht
   - image_processing/orogen/buoy_detector #Kaputt
   - avalon/rotation_lib # kaputt
+  - avalon/orogen/testbedServoing # unbenutzt
   #- communication/*
   #- simulation/*
