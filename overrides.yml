@@ -6,4 +6,9 @@ overrides:
       branch: withoutIMU_withSpeed
   - avalon/orogen/motionEstimation:
       branch: PWMBased
+  - avalon/orogen/buoydetector:
+      branch: visual_detectors
+  - drivers/orogen/camera_unicap:
+      branch: simple
+
 
