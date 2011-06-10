@@ -6,4 +6,6 @@ overrides:
       branch: withoutIMU_withSpeed
   - avalon/orogen/motionEstimation:
       branch: PWMBased
+  - supervision:
+      branch: auv10
 
