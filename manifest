@@ -56,5 +56,6 @@ exclude_packages:
   - avalon/rotation_lib # kaputt
   - avalon/orogen/testbedServoing # unbenutzt
   - avalon/orogen/rotation_experiment # baut nicht
-  #- communication/*
+  - tools/service_discovery 
+#- communication/*
   #- simulation/*
