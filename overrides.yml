@@ -5,7 +5,7 @@ overrides:
   - avalon/ekf_slam:
       branch: withoutIMU_withSpeed
   - avalon/orogen/motionEstimation:
-      branch: PWMBased
+      branch: ModelBased
   - avalon/orogen/buoydetector:
       branch: visual_detectors
   - drivers/camera_unicap:
