@@ -48,7 +48,7 @@ layout:
 
 exclude_packages:
   - ocl
-  - external/opencv # Baut nicht
+  #- external/opencv # Baut nicht
   - tools/image_preprocessing # _Baut nicht wegen opencv
   - avalon/imageHandling # aut nicht wegen opencv
   - image_processing/buoy_detector #Baut auch nicht
