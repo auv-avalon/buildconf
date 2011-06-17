@@ -8,8 +8,6 @@ overrides:
       branch: PWMBased
   - avalon/orogen/buoydetector:
       branch: visual_detectors
-  - drivers/orogen/camera_unicap:
-      branch: using-base
   - drivers/camera_unicap:
       branch: simple
 
