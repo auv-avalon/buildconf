@@ -45,6 +45,12 @@ layout:
   - tools/frame_sync
 #  - drivers/orogen/controldev
 #
+  - tools/pose_viewer
+  - image_processing/visual_odometry
+  - image_processing/orogen/visual_odometry
+  - external/surfGPU
+  - avalon/orogen/visual_odometry_deployment
+
 
 exclude_packages:
   - ocl
