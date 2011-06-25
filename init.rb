@@ -47,3 +47,6 @@ Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 Autoproj.change_option('ROCK_FLAVOR', 'master')
 
+Autobuild::Orogen.transports << "mqueue"
+Autobuild::Orogen.extended_states = true
+
