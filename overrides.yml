@@ -8,4 +8,8 @@ overrides:
       branch: ModelBased 
   - supervision:
       branch: auv10
+  - avalon/orogen/buoydetector:
+      branch: visual_detectors
+  - drivers/camera_unicap:
+      branch: simple
 
