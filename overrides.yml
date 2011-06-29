@@ -10,4 +10,8 @@ overrides:
       branch: visual_detectors
   - drivers/camera_unicap:
       branch: simple
+  - simulation/mars:
+      branch: master
+  - simulation/mars-plugins/multisim_plugin:
+      branch: next
 
