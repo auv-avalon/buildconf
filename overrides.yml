@@ -15,3 +15,11 @@ overrides:
   - simulation/mars-plugins/multisim_plugin:
       branch: next
 
+  - tools/orocos.rb:
+      branch: experimental
+  - tools/roby:
+      branch: experimental
+  - supervision:
+      branch: experimental
+
+
