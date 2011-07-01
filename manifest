@@ -59,9 +59,9 @@ exclude_packages:
   - avalon/imageHandling # aut nicht wegen opencv
   - image_processing/buoy_detector #Baut auch nicht
   - image_processing/orogen/buoy_detector #Kaputt
-  - avalon/rotation_lib # kaputt
+  # - avalon/rotation_lib # kaputt
   - avalon/orogen/testbedServoing # unbenutzt
-  - avalon/orogen/rotation_experiment # baut nicht
+  # - avalon/orogen/rotation_experiment # baut nicht
   - tools/service_discovery 
 #- communication/*
   #- simulation/*
