@@ -22,4 +22,12 @@ overrides:
   - supervision:
       branch: experimental
 
-
+  - external/opencv:
+      type: archive
+      url: file://$AUTOPROJ_CONFIG/tarballs/opencv_snapshot_4876.tar.bz2
+  - external/yaml-cpp:
+      type: archive
+      url: file://$AUTOPROJ_CONFIG/tarballs/yaml-cpp-0.2.5.tar.gz
+  - external/sisl:
+      type: archive
+      url: file://$AUTOPROJ_CONFIG/tarballs/sisl_4.4_GPL.tgz
