@@ -44,10 +44,10 @@ require "autoproj/gitorious"
 # Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 # Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
 
-Autoproj.change_option('GITORIOUS_ROOT', 'git://localhost')
-Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'git://localhost')
-Autoproj.change_option('SPACEGIT_ROOT', 'git://localhost')
-Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'git://localhost')
+Autoproj.change_option('GITORIOUS_ROOT', 'git://avalon.local')
+Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'git://avalon.local')
+Autoproj.change_option('SPACEGIT_ROOT', 'git://avalon.local')
+Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'git://avalon.local')
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 Autoproj.change_option('ROCK_FLAVOR', 'master')
