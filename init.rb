@@ -54,4 +54,5 @@ Autoproj.change_option('ROCK_FLAVOR', 'master')
 
 Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true
+Autobuild::Orogen.always_regenerate = false
 
