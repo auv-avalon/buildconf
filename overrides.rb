@@ -15,3 +15,24 @@ setup_package 'external/opencv' do |pkg|
 end
 
 Autobuild::Orogen.always_regenerate = false
+
+
+require "socket"
+if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
+        STDOUT.puts "####  Not building GUI Based packes on Avalon  ####"
+        ignore "gui/vizkit"
+        ignore "gui/rock_widget_collection"
+        ignore "simulation/.*"
+        ignore "avalon/orogen/avalon_simulation_deployment"
+        ignore "avalon/orogen/laserToPosition"
+        ignore "avalon/gui/sonarbeamviz"
+        ignore "avalon/gui/movement"
+        ignore "avalon/gui/rangeScanner"
+        ignore "avalon/gui/sonar"
+        ignore "avalon/orogen/sonar_vizkit"
+        ignore "avalon/orogen/movementGUI"
+        ignore "avalon/orogen/sonarGUI"
+        ignore "avalon/orogen/movement_experiment"
+        ignore ".*structured_light"
+end
+
