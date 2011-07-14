@@ -51,6 +51,8 @@ layout:
   - external/surfGPU
   - avalon/orogen/visual_odometry_deployment
 
+ignore_packages:
+  - external/unicap
 
 exclude_packages:
   - ocl
@@ -63,3 +65,4 @@ exclude_packages:
   - tools/service_discovery 
 #- communication/*
   #- simulation/*
+#  - gui/vizkit
