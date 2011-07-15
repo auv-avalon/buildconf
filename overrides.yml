@@ -2,8 +2,6 @@
 # locally override version control information.
 
 overrides:
-  - avalon/ekf_slam:
-      branch: withoutIMU_withSpeed
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
