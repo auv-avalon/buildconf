@@ -63,7 +63,17 @@ exclude_packages:
   # - avalon/rotation_lib # kaputt
   - avalon/orogen/testbedServoing # unbenutzt
   # - avalon/orogen/rotation_experiment # baut nicht
-  - tools/service_discovery
   - avalon/orogen/sonarGUI #Depricated
+
+#Dosn't compile 20110815
+  - simulation/mars-plugins/multisim_plugin 
+  - simulation/orogen/mars_core
+  - simulation/mars-plugins/avalon-plugin
+  - simulation/orogen/avalon_simulation
+  - avalon/orogen/avalon_simulation_deployment
+  - avalon/visual_detectors
+  - avalon/orogen/buoydetector
+  - avalon/orogen/sonar_vizkit
+
 #- communication/*
   #- simulation/*
