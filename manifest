@@ -37,6 +37,7 @@ exclude_packages:
   - avalon/orogen/testbedServoing # unbenutzt
   - avalon/orogen/sonarGUI #Depricated
   - avalon/orogen/ekfSLAM #not compatible with SonarBeam
+  - avalon/orogen/sonar_vizkit #obsolete
 
 #Dosn't compile 20110815
   - simulation/mars-plugins/avalon-plugin
