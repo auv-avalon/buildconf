@@ -16,7 +16,7 @@
 # Additionally, you can set up your own custom environment with calls to env_add
 # and env_set:
 #
-# env_add 'PATH', "/path/to/my/tool"
+env_add 'PATH', "/usr/lib/ccache/"
 # env_set 'CMAKE_PREFIX_PATH', "/opt/boost;/opt/xerces"
 # env_set 'CMAKE_INSTALL_PATH', "/opt/orocos"
 #
