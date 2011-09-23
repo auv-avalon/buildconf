@@ -44,11 +44,5 @@ exclude_packages:
   - avalon/orogen/avalon_simulation_deployment
   - avalon/visual_detectors
   - avalon/orogen/buoydetector
-  - tools/service_discovery
-  - gui/vizkit 
-  - avalon/sonar_detectors
-  - avalon/orogen/sonarDetector 
-  - avalon/orogen/sonar_vizkit 
 #- communication/*
   - simulation/*
-  - gui/rock_widget_collection

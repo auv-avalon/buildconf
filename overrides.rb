@@ -34,8 +34,5 @@ if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         ignore "avalon/orogen/sonarGUI"
         ignore "avalon/orogen/movement_experiment"
         ignore ".*structured_light"
-        ignore "avalon/sonar_detectors"
-        ignore "avalon/orogen/sonarDetector"
-        ignore "avalon/orogen/sonar_vizkit"
 end
 
