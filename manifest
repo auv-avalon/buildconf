@@ -36,7 +36,6 @@ exclude_packages:
   - ocl
   - avalon/orogen/testbedServoing # unbenutzt
   - avalon/orogen/sonarGUI #Depricated
-  - avalon/orogen/sonar_vizkit #obsolete
 
 #Dosn't compile 20110815
 #  - simulation/mars-plugins/avalon-plugin
