@@ -39,10 +39,10 @@ exclude_packages:
   - avalon/orogen/sonar_vizkit #obsolete
 
 #Dosn't compile 20110815
-  - simulation/mars-plugins/avalon-plugin
-  - simulation/orogen/avalon_simulation
-  - avalon/orogen/avalon_simulation_deployment
-  - avalon/visual_detectors
-  - avalon/orogen/buoydetector
+#  - simulation/mars-plugins/avalon-plugin
+#  - simulation/orogen/avalon_simulation
+#  - avalon/orogen/avalon_simulation_deployment
+#  - avalon/visual_detectors
+#  - avalon/orogen/buoydetector
 #- communication/*
-  - simulation/*
+#  - simulation/*
