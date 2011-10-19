@@ -30,6 +30,7 @@ layout:
   - tools/pose_viewer
   - drivers/orogen/taskmon
   - external/surfGPU
+  - drivers/relaisboard
 
 exclude_packages:
   - ocl
