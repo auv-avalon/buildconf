@@ -38,7 +38,7 @@ exclude_packages:
   - avalon/orogen/sonarGUI #Depricated
   - avalon/orogen/movement_experiment # unbenutzt
   - avalon/orogen/rotation_experiment # baut nicht
-
+  - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
 #Dosn't compile 20110815
 #  - simulation/mars-plugins/avalon-plugin
 #  - simulation/orogen/avalon_simulation
