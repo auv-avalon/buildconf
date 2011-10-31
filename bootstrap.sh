@@ -15,7 +15,7 @@ if ! test -f $PWD/autoproj_bootstrap; then
     $DOWNLOADER http://www.rock-robotics.org/autoproj_bootstrap
 fi
 
-ruby autoproj_bootstrap $@ git git://spacegit.dfki.uni-bremen.de/avalon/buildconf.git push_to=git@spacegit.dfki.uni-bremen.de:avalon/buildconf.git branch=master
+ruby1.9.1 autoproj_bootstrap $@ git git://spacegit.dfki.uni-bremen.de/avalon/buildconf.git push_to=git@spacegit.dfki.uni-bremen.de:avalon/buildconf.git branch=avalon
 if test "x$@" != "xlocaldev"; then
     . $PWD/env.sh
     autoproj update
