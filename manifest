@@ -46,4 +46,4 @@ exclude_packages:
 #  - avalon/visual_detectors
 #  - avalon/orogen/buoydetector
 #- communication/*
-#  - simulation/*
+  - simulation/*
