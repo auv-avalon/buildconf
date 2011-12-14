@@ -45,12 +45,7 @@ Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
-
-Autoproj.change_option('ROCK_FLAVOR', 'master')
-
-if ENV['ROCK_FORCE_FLAVOR']
-    Autoproj.change_option('ROCK_FLAVOR', ENV['ROCK_FORCE_FLAVOR'])
-end
+# Autoproj.change_option('ROCK_FLAVOR', 'master')
 
 Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true
