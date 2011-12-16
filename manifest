@@ -35,6 +35,6 @@ exclude_packages:
   - avalon/orogen/rotation_experiment # baut nicht
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
   - control/orogen/auv_control # deprecated
-  - simulation/*
-  - simulation/orogen/mars_core
-  - avalon/orogen/avalon_simulation_deployment
+#  - simulation/*
+#  - simulation/orogen/mars_core
+#  - avalon/orogen/avalon_simulation_deployment

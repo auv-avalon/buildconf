@@ -6,9 +6,9 @@ overrides:
       branch: ModelBased
   - avalon/orogen/buoydetector:
       branch: visual_detectors
-  - simulation/mars:
+  - simulation/.*:
       branch: master
-#  - tools/orocos.rb:
-#      branch: next
+  - tools/logger:
+      branch: master
 
 
