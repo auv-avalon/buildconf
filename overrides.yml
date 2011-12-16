@@ -8,6 +8,8 @@ overrides:
       branch: visual_detectors
   - simulation/.*:
       branch: master
+  - communication/adrf
+      branch: master
   - tools/logger:
       branch: master
 
