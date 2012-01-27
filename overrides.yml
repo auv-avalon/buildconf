@@ -12,5 +12,18 @@ overrides:
       branch: master
   - tools/logger:
       branch: master
-
+  - simulation/mars_graphics:
+      branch: eigen3
+  - simulation/mars_core:
+      branch: eigen3
+  - simulation/mars-plugins/multisim_plugin:
+      branch: eigen3
+  - simulation/mars_sim:
+      branch: eigen3
+  - simulation/mars_gui:
+      branch: eigen3
+  - simulation/mars-plugins/avalon-plugin:
+      branch: eigen3
+  - simulation/orogen/avalon_plugin:
+      branch: eigen3
 
