@@ -14,3 +14,5 @@ overrides:
 #      branch: next
 
 
+  - slam/quater_ikf:
+      commit: ebb0234654c9f66e96c86e3e7eb13894a41d73c6
