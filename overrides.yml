@@ -8,8 +8,6 @@ overrides:
       branch: visual_detectors
   - simulation/mars:
       branch: master
-  - tools/logger:
-      branch: master
 #  - tools/orocos.rb:
 #      branch: next
 
