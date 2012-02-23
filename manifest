@@ -36,5 +36,3 @@ exclude_packages:
   - avalon/orogen/rotation_experiment # baut nicht
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
   - control/orogen/auv_control # deprecated
-  - slam/orogen/eras 
-  - slam/orogen/eras_position_estimator 
