@@ -5,7 +5,7 @@
 # Autobuild.commands['make'] = '/path/to/ccmake'
 
 # Set the parallel build level (defaults to the number of CPUs)
-# Autobuild.parallel_build_level = 10
+# Autobuild.parallel_build_level = 10 
 
 # Uncomment to initialize the environment variables to default values. This is
 # useful to ensure that the build is completely self-contained, but leads to
@@ -45,7 +45,7 @@ Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
-Autoproj.change_option('ROCK_FLAVOR', 'master')
+#Autoproj.change_option('ROCK_FLAVOR', 'next') #THIS SHOULD NOT SET IN THIS FILE, so each user can select where he would like to work
 
 Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true

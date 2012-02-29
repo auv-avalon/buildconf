@@ -12,25 +12,21 @@ package_sets:
 layout:
   - rock.base
   - rock.toolchain
-#  - rock.dfki #we dont wont all from there drivers should be resolved by the orogen(modules)
   - avalon
-  - avalon/orogen/visual_odometry_deployment
   - control/orogen/auv_rel_pos_controller
-#  - drivers/orogen/controldev
   - image_processing/visual_odometry
   - image_processing/orogen/offshore_pipeline_detector
   - image_processing/orogen/visual_odometry
   - image_processing/orogen/image_preprocessing
   - gui/vizkit
   - gui/rock_widget_collection
-  - simulation/mars
-  - simulation/orogen/mars_core
   - slam/envire
   - tools/frame_sync
   - tools/pose_viewer
   - drivers/orogen/taskmon
   - external/surfGPU
   - drivers/relaisboard
+  - simulation/orogen/avalon_simulation
 
 exclude_packages:
   - ocl
@@ -39,13 +35,6 @@ exclude_packages:
   - avalon/orogen/movement_experiment # unbenutzt
   - avalon/orogen/rotation_experiment # baut nicht
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
-#Dosn't compile 20110815
-#  - simulation/mars-plugins/avalon-plugin
-#  - simulation/orogen/avalon_simulation
-#  - avalon/orogen/avalon_simulation_deployment
-#  - avalon/visual_detectors
-#  - avalon/orogen/buoydetector
-#- communication/*
-#  - simulation/*
-  - avalon/battery_management
+  - control/orogen/auv_control # deprecated
+  - avalon/battery_management # baut (installiert) nicht
   - avalon/orogen/battery_management
