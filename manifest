@@ -47,3 +47,5 @@ exclude_packages:
 #  - avalon/orogen/buoydetector
 #- communication/*
 #  - simulation/*
+  - avalon/battery_management
+  - avalon/orogen/battery_management
