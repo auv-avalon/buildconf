@@ -10,6 +10,8 @@ overrides:
       branch: master
   - simulation/mars-plugins/avalon-plugin:
       branch: eigen3
+  - drivers/orogen/sonar_tritech:
+      branch: master
 
   - simulation/mars_graphics: 
       commit: 63e02761eefbae70c6e007c42abe85a452d5be1c
