@@ -14,10 +14,16 @@ setup_package 'external/opencv' do |pkg|
     pkg.define "BUILD_EXAMPLES", "OFF"
 end
 
+require "socket"
+if Socket.gethostname != "mgoldhoorn" 
+setup_package 'simulation/mars_graphics' do |pkg|
+    STDOUT.puts "####  Disableing Depth image support on mars  ####"
+    pkg.define "DEPTH_IMAGES", "OFF"
+end
+
 Autobuild::Orogen.always_regenerate = true 
 
 
-require "socket"
 if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         STDOUT.puts "####  Not building GUI Based packes on Avalon  ####"
         ignore "gui/vizkit"
