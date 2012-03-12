@@ -8,6 +8,11 @@ overrides:
       branch: visual_detectors
   - simulation/.*:
       branch: master
+  - drivers/orogen/sonar_tritech:
+      branch: master
+
+
+
 #  - simulation/mars-plugins/avalon-plugin:
 #      branch: eigen3
 #  - simulation/mars_graphics: 
@@ -40,3 +45,5 @@ overrides:
 #      commit: 5a711c389257cfa6b4a0b6b451fba2c869ca6b71
 #  - simulation/mars_gui: 
 #      commit: b236d3203713d60ab2f25c719d17db49e5193518
+  
+  
