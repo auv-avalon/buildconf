@@ -38,3 +38,4 @@ exclude_packages:
   - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
   - avalon/orogen/battery_management
+  - avalon/orogen/eras_position_estimator 
