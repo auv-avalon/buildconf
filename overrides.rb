@@ -7,6 +7,11 @@ if package_selected?('rtt')
     package('rtt').define "ENABLE_MQ", "ON"
 end
 
+
+setup_package 'gui/rock_widget_collection' do |pkg|
+    pkg.define "USE_VTK", "ON"
+end
+
 setup_package 'external/opencv' do |pkg|
     pkg.define "BUILD_TESTS", "OFF"
     pkg.define "WITH_FFMPEG", "OFF"
