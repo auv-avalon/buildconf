@@ -27,6 +27,7 @@ layout:
   - external/surfGPU
   - drivers/relaisboard
   - simulation/orogen/avalon_simulation
+  - avalon/orogen/battery_management
 
 exclude_packages:
   - ocl
@@ -37,5 +38,4 @@ exclude_packages:
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
   - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
-  - avalon/orogen/battery_management
   - slam/orogen/eras_position_estimator 
