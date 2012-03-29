@@ -16,12 +16,13 @@ layout:
   - avalon/orogen/avalonBack
   - supervision
   - scripts
-
   - drivers/relaisboard
 
 exclude_packages:
   - ocl
   - gui/vizkit
+  - slam/eras
+  - slam/orogen/eras_position_estimator
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
 #Dosn't compile 20110815
 #  - simulation/mars-plugins/avalon-plugin
