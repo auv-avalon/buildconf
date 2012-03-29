@@ -14,7 +14,12 @@ overrides:
       branch: avalon
   - drivers/orogen/audio_reader:
       branch: interface
-
+  - drivers/iodrivers_base:
+      branch: master
+  - drivers/sonar_tritech:
+      branch: cleanup
+  - drivers/orogen/sonar_tritech:
+      branch: cleanup
 
 
 
@@ -52,3 +57,4 @@ overrides:
 #      commit: b236d3203713d60ab2f25c719d17db49e5193518
   
   
+
