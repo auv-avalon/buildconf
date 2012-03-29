@@ -12,6 +12,9 @@ overrides:
       branch: master
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
+  - drivers/orogen/audio_reader:
+      branch: interface
+
 
 
 
