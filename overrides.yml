@@ -14,3 +14,7 @@ overrides:
       branch: avalon
   - drivers/iodrivers_base:
       branch: master
+  - drivers/sonar_tritech:
+      branch: cleanup
+  - drivers/orogen/sonar_tritech:
+      branch: cleanup
