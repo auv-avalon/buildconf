@@ -20,6 +20,8 @@ overrides:
       branch: cleanup
   - drivers/orogen/sonar_tritech:
       branch: cleanup
+  - slam/quater_ikf:
+      branch: master
 
 
 
