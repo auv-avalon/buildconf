@@ -12,11 +12,9 @@ package_sets:
 layout:
   - rock.base
   - rock.toolchain
-  - avalon/orogen/avalonFront
-  - avalon/orogen/avalonBack
+  - avalon/orogen/asv
   - supervision
   - scripts
-  - drivers/relaisboard
 
 exclude_packages:
   - ocl
