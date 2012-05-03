@@ -17,9 +17,9 @@ overrides:
   - drivers/iodrivers_base:
       branch: master
   - drivers/sonar_tritech:
-      branch: cleanup
+      branch: master #cleanup
   - drivers/orogen/sonar_tritech:
-      branch: cleanup
+      branch: master 
   - slam/quater_ikf:
       branch: master
 

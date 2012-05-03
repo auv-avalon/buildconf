@@ -40,6 +40,8 @@ ignore(/~$/)
 
 require "autoproj/gitorious"
 
+require 'syck'
+YAML::ENGINE.yamler = 'syck'
 
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
