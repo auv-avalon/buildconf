@@ -28,7 +28,7 @@ layout:
   - drivers/relaisboard
   - simulation/orogen/avalon_simulation
   - avalon/orogen/battery_management
-  - simulation/mars_viz/
+#  - simulation/mars_viz/
 
 exclude_packages:
   - ocl
