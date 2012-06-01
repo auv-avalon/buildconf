@@ -22,7 +22,8 @@ overrides:
       branch: master 
   - slam/quater_ikf:
       branch: master
-
+  - avalon/orogen/avalonFront:
+      commit: 20203145985bf0ee75f5a094e62cd2d5cd459745
 
 
 #  - simulation/mars-plugins/avalon-plugin:
