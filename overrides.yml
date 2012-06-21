@@ -20,6 +20,8 @@ overrides:
       branch: master #ex cleanup 
   - slam/quater_ikf:
       branch: master
+  - image_processing/visual_odometry:
+      commit: 95e005a9404badf350beb2a808f4eab80e11be82
 
 #  - simulation/mars-plugins/avalon-plugin:
 #      branch: eigen3
