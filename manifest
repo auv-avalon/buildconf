@@ -40,3 +40,5 @@ exclude_packages:
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
   - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
+  - image_processing/orogen/visual_odometry #Baut nicht 22.06.12
+  - avalon/orogen/visual_odometry_deployment # s.O.
