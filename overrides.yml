@@ -24,6 +24,8 @@ overrides:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
+  - dagon/orogen/uwv_dynamic_model:
+      branch: avalon
 
 #  - simulation/mars-plugins/avalon-plugin:
 #      branch: eigen3
