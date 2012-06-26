@@ -14,9 +14,9 @@ layout:
   - rock.toolchain
   - avalon
   - control/orogen/auv_rel_pos_controller
-  - image_processing/visual_odometry
+#  - image_processing/visual_odometry
   - image_processing/orogen/offshore_pipeline_detector
-  - image_processing/orogen/visual_odometry
+#  - image_processing/orogen/visual_odometry
   - image_processing/orogen/image_preprocessing
   - gui/vizkit
   - gui/rock_widget_collection
@@ -40,5 +40,4 @@ exclude_packages:
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
   - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
-  - image_processing/orogen/visual_odometry #Baut nicht 22.06.12
   - avalon/orogen/visual_odometry_deployment # s.O.
