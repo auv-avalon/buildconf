@@ -14,25 +14,24 @@ layout:
   - rock.toolchain
   - avalon
   - control/orogen/auv_rel_pos_controller
-#  - image_processing/visual_odometry
   - image_processing/orogen/offshore_pipeline_detector
-#  - image_processing/orogen/visual_odometry
   - image_processing/orogen/image_preprocessing
   - gui/vizkit
   - gui/rock_widget_collection
-  - slam/envire
   - tools/frame_sync
   - tools/pose_viewer
   - drivers/orogen/taskmon
-  - external/surfGPU
   - drivers/relaisboard
   - simulation/orogen/avalon_simulation
   - avalon/orogen/battery_management
 #  - simulation/mars_viz/
+#  - slam/envire
+#  - image_processing/orogen/visual_odometry
+#  - image_processing/visual_odometry
+#  - external/surfGPU
 
 exclude_packages:
   - ocl
-#  - avalon/orogen/asv # net fertig:
   - avalon/orogen/testbedServoing # unbenutzt
   - avalon/orogen/sonarGUI #Depricated
   - avalon/orogen/movement_experiment # unbenutzt
@@ -41,3 +40,10 @@ exclude_packages:
   - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
   - avalon/orogen/visual_odometry_deployment # s.O.
+  - avalon/orogen/piplineTracker
+  - avalon/orogen/motionEstimation
+  - avalon/orogen/ekfSLAM
+  - avalon/ekf_slam
+  - avalon/avalonModel
+  - bundles
+
