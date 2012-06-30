@@ -43,6 +43,7 @@ exclude_packages:
   - avalon/orogen/piplineTracker
   - avalon/orogen/motionEstimation
   - avalon/orogen/ekfSLAM
+  - avalon/orogen/buoydetector # old detector
   - avalon/ekf_slam
   - avalon/avalonModel
   - bundles
