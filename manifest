@@ -33,6 +33,7 @@ layout:
 exclude_packages:
   - ocl
 #  - avalon/orogen/asv # net fertig:
+  - avalon/orogen/buoydetector
   - avalon/orogen/testbedServoing # unbenutzt
   - avalon/orogen/sonarGUI #Depricated
   - avalon/orogen/movement_experiment # unbenutzt
