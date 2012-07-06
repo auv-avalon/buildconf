@@ -46,6 +46,13 @@ YAML::ENGINE.yamler = 'syck'
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
 
+ 
+Autoproj.change_option('GITORIOUS_ROOT', 'git://192.168.128.50')
+Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'git://192.168.128.50')
+Autoproj.change_option('SPACEGIT_ROOT', 'git://192.168.128.50')
+Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'git://192.168.128.50')
+
+
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 # Autoproj.change_option('ROCK_FLAVOR', 'master')
 
