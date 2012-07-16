@@ -28,8 +28,6 @@ overrides:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
-  - simulation/mars_core:
-      commit: 9aef73718e39c2dea2c222e44eb1f3605565f645
 
 #  - simulation/mars-plugins/avalon-plugin:
 #      branch: eigen3
