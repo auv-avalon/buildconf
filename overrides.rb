@@ -12,12 +12,12 @@ setup_package 'gui/rock_widget_collection' do |pkg|
     pkg.define "USE_VTK", "ON"
 end
 
-setup_package 'external/opencv' do |pkg|
-    pkg.define "BUILD_TESTS", "OFF"
-    pkg.define "WITH_FFMPEG", "OFF"
-    pkg.define "WITH_V4L", "OFF"
-    pkg.define "BUILD_EXAMPLES", "OFF"
-end
+#setup_package 'external/opencv' do |pkg|
+#    pkg.define "BUILD_TESTS", "OFF"
+#    pkg.define "WITH_FFMPEG", "OFF"
+#    pkg.define "WITH_V4L", "OFF"
+#    pkg.define "BUILD_EXAMPLES", "OFF"
+#end
 
 setup_package('slam/envire') do |pkg|
     pkg.parallel_build_level = 1

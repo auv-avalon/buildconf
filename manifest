@@ -6,7 +6,7 @@
 package_sets:
   - gitorious: rock-toolchain/package_set
   - spacegit: avalon/package_set
-  - spacegit: cuslam/package_set
+#  - spacegit: cuslam/package_set
   - spacegit: mars/package_set
 
 layout:
