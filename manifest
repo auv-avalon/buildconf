@@ -18,8 +18,8 @@ layout:
   - image_processing/orogen/image_preprocessing
   - gui/vizkit
   - gui/rock_widget_collection
-  - tools/frame_sync
-  - tools/pose_viewer
+#  - tools/frame_sync
+#  - tools/pose_viewer
   - drivers/orogen/taskmon
   - drivers/relaisboard
   - simulation/orogen/avalon_simulation
