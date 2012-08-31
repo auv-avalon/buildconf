@@ -21,7 +21,7 @@ layout:
 #  - tools/frame_sync
 #  - tools/pose_viewer
   - drivers/orogen/taskmon
-  - drivers/relaisboard
+#  - drivers/relaisboard
   - simulation/orogen/avalon_simulation
   - avalon/orogen/battery_management
 #  - simulation/mars_viz/
