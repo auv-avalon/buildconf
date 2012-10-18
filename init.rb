@@ -40,6 +40,10 @@ ignore(/~$/)
 
 require "autoproj/gitorious"
 
+if !Autoproj.has_config_key?('ROCK_FLAVOR')
+       STDOUT.puts "### Setting Default rock-flavor for Avalon to next, if you are sure abort bootstrap cancel after this step and edit config.yml by hand ###" #was added to keep the botstrap as simple as possible for the students
+       Autoproj.change_option('ROCK_FLAVOR', 'next', true)
+end 
 
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
