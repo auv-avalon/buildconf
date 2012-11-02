@@ -7,13 +7,6 @@ if package_selected?('rtt')
     package('rtt').define "ENABLE_MQ", "ON"
 end
 
-#setup_package 'external/opencv' do |pkg|
-#    pkg.define "BUILD_TESTS", "OFF"
-#    pkg.define "WITH_FFMPEG", "OFF"
-#    pkg.define "WITH_V4L", "OFF"
-#    pkg.define "BUILD_EXAMPLES", "OFF"
-#end
-
 Autobuild::Orogen.always_regenerate = true 
 
 
