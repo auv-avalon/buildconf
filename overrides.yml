@@ -4,7 +4,7 @@
 overrides:
   - avalon/orogen/motionEstimation:
       branch: ModelBased
-  - drivers/dfki_imu:
-      branch: master
+#  - drivers/dfki_imu:
+#      branch: master
   - libs/ins_filter: 
       branch: master
