@@ -12,12 +12,12 @@ overrides:
       branch: master
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
-  - drivers/iodrivers_base:
-      branch: master
+#  - drivers/iodrivers_base:
+#      branch: master
   - drivers/sonar_tritech:
-      branch: master #ex cleanup
+      branch: next #ex cleanup
   - drivers/orogen/sonar_tritech:
-      branch: master #ex cleanup 
+      branch: next #ex cleanup 
   - slam/quater_ikf:
       branch: master
   - drivers/orogen/controldev:
