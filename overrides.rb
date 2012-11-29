@@ -23,13 +23,13 @@ setup_package('slam/envire') do |pkg|
     pkg.parallel_build_level = 1
 end
 
-require "socket"
-if Socket.gethostname != "mgoldhoorn" 
-    setup_package 'simulation/mars_graphics' do |pkg|
-        STDOUT.puts "####  Disableing Depth image support on mars  ####"
-        pkg.define "DEPTH_IMAGES", "OFF"
-    end
-end
+#require "socket"
+#if Socket.gethostname != "mgoldhoorn" 
+#    setup_package 'simulation/mars_graphics' do |pkg|
+#        STDOUT.puts "####  Disableing Depth image support on mars  ####"
+#        pkg.define "DEPTH_IMAGES", "OFF"
+#    end
+#end
 
 Autobuild::Orogen.always_regenerate = true 
 
