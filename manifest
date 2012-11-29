@@ -7,7 +7,8 @@ package_sets:
   - gitorious: rock-toolchain/package_set
   - spacegit: avalon/package_set
 #  - spacegit: cuslam/package_set
-  - spacegit: mars/package_set
+#  - spacegit: mars/package_set
+  - gitorious: rock-simulation/package_set
 
 layout:
   - rock.base
