@@ -18,8 +18,8 @@ overrides:
       branch: next #ex cleanup
   - drivers/orogen/sonar_tritech:
       branch: next #ex cleanup 
-#  - slam/quater_ikf:
-#      branch: master
+  - slam/quater_ikf:
+      branch: master
 #  - drivers/orogen/controldev:
 #      branch: master
   - image_processing/visual_odometry:
