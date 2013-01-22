@@ -40,7 +40,7 @@ exclude_packages:
   - avalon/orogen/movement_experiment # unbenutzt
   - avalon/orogen/rotation_experiment # baut nicht
   - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
-  - control/orogen/auv_control # deprecated
+# - control/orogen/auv_control # deprecated
   - avalon/battery_management # baut (installiert) nicht
   - avalon/orogen/visual_odometry_deployment # s.O.
   - avalon/orogen/piplineTracker
