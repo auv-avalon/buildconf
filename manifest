@@ -30,7 +30,7 @@ layout:
 #  - image_processing/orogen/visual_odometry
 #  - image_processing/visual_odometry
 #  - external/surfGPU
-  - control/orogen/auv_control
+
 
 exclude_packages:
   - ocl
@@ -51,5 +51,5 @@ exclude_packages:
   - avalon/ekf_slam
   - avalon/avalonModel
   - bundles
-#  - dagon/orogen/uwv_dynamic_model #baut nicht 09.08.2012
+  - dagon/orogen/uwv_dynamic_model #baut nicht 09.08.2012
 
