@@ -2,6 +2,12 @@
 # locally override version control information.
 
 overrides:
+#  - tools/orocos.rb:
+##      branch: stable 
+#  - tools/roby:
+#      branch: stable 
+  - control/orogen/auv_control:
+      branch: new
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
