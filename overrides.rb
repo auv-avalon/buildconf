@@ -60,3 +60,12 @@ setup_package 'external/yaml-cpp' do |pkg|
         File.readlines(File.join(pkg.srcdir,"CMakeLists.txt")).grep(/YAML_CPP_VERSION_MINOR "3"/) == []
     end
 end
+
+remove_from_default 'external/sisl'
+
+cmake_package 'external/sisl' do |pkg|
+    pkg.define "BUILD_SHARED_LIBS","ON"
+    update_archive(pkg, "http://www.sintef.no/upload/IKT/9011/geometri/sisl/sisl-4.5.0.tar.gz", "4.5.0") do
+            !File.exists?(File.join(pkg.srcdir,"CMakeLists.txt"))
+    end
+end
