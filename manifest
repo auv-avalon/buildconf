@@ -50,6 +50,6 @@ exclude_packages:
   - avalon/orogen/buoydetector # old detector
   - avalon/ekf_slam
   - avalon/avalonModel
-  - bundles
+#  - bundles
   - dagon/orogen/uwv_dynamic_model #baut nicht 09.08.2012
 
