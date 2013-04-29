@@ -33,6 +33,10 @@ overrides:
   - orogen:
       url: git://gitorious.org/~goldhoorn/orocos-toolchain/goldhoorns-rock-orogen.git
       push_to: git@gitorious.org:~goldhoorn/orocos-toolchain/goldhoorns-rock-orogen.git
+  - dagon/uwv_dynamic_model:
+      branch: avalon
+  - control/motor_controller:
+      branch: master
 #  - simulation/mars-plugins/avalon-plugin:
 #      branch: eigen3
 #  - simulation/mars_graphics: 

@@ -15,7 +15,21 @@ if ! test -f $PWD/autoproj_bootstrap; then
     $DOWNLOADER http://www.rock-robotics.org/autoproj_bootstrap
 fi
 
-ruby autoproj_bootstrap $@ git git://spacegit.dfki.uni-bremen.de/avalon/buildconf.git push_to=git@spacegit.dfki.uni-bremen.de:avalon/buildconf.git branch=master
+if which ruby1.9.3 > /dev/null; then
+    RUBY="ruby1.9.3"
+elif which ruby1.9.2 > /dev/null; then
+    RUBY="ruby1.9.2"
+elif which ruby1.9.1 > /dev/null; then
+    RUBY="ruby1.9.1"
+elif which ruby1.9 > /dev/null; then
+    RUBY="ruby1.9"
+else 
+    echo "Please instll ruby 1.9 (if you have it installed, please check the boostrap file for your version"
+    exit -1
+fi
+
+$RUBY autoproj_bootstrap $@ git git://spacegit.dfki.uni-bremen.de/avalon/buildconf.git push_to=git@spacegit.dfki.uni-bremen.de:avalon/buildconf.git branch=master
+
 if test "x$@" != "xlocaldev"; then
     . $PWD/env.sh
     autoproj update
