@@ -34,6 +34,7 @@ layout:
 
 exclude_packages:
   - ocl
+  - base/orogen/std
 #  - avalon/orogen/asv # net fertig:
   - avalon/orogen/buoydetector
   - avalon/orogen/testbedServoing # unbenutzt
