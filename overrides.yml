@@ -30,9 +30,6 @@ overrides:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
-  - orogen:
-      url: git://gitorious.org/~goldhoorn/orocos-toolchain/goldhoorns-rock-orogen.git
-      push_to: git@gitorious.org:~goldhoorn/orocos-toolchain/goldhoorns-rock-orogen.git
   - dagon/uwv_dynamic_model:
       branch: avalon
   - control/motor_controller:
