@@ -8,6 +8,10 @@ overrides:
       branch: new
   - control/motor_controller:
       branch: master
+  - drivers/hbridge:
+      branch: version2
+  - drivers/orogen/hbridge:
+      branch: version2
 #  - drivers/dfki_imu:
 #      branch: master
   - libs/ins_filter: 
