@@ -16,3 +16,5 @@ overrides:
 #      branch: master
   - libs/ins_filter: 
       branch: master
+  - slam/quater_ikf:
+      branch: master
