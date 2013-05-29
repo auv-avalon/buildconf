@@ -16,4 +16,9 @@ overrides:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
-
+  - dagon/uwv_dynamic_model:
+      branch: avalon
+  - control/orogen/auv_control:
+      branch: new
+  - avalon/orogen/rawControlCommandConverter:
+      branch: newControlDraw

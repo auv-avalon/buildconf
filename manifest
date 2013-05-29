@@ -17,6 +17,7 @@ layout:
   - supervision
   - scripts
   - drivers/relaisboard
+  - control/orogen/auv_control
 
 exclude_packages:
   - ocl
