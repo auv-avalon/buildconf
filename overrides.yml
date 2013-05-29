@@ -32,5 +32,9 @@ overrides:
       branch: master
   - slam/quater_ikf:
       branch: master
+  - drivers/controldev:
+      branch: master
+  - drivers/orogen/controldev:
+      branch: master
   - control/motor_controller:
       branch: master
