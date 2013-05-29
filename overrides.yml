@@ -14,8 +14,6 @@ overrides:
       branch: visual_detectors
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
-  - slam/quater_ikf:
-      branch: master
   - image_processing/visual_odometry:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
@@ -28,3 +26,11 @@ overrides:
       branch: new
   - avalon/orogen/rawControlCommandConverter:
       branch: newControlDraw
+  - slam/orogen/orientation_estimator:
+      branch: master
+  - slam/quater_ukf:
+      branch: master
+  - slam/quater_ikf:
+      branch: master
+  - control/motor_controller:
+      branch: master
