@@ -1,57 +1,16 @@
-# Use GITORIOUS_ROOT and GITORIOUS_PUSH_ROOT for accessing 
-#   the wanted package sets published on gitorious.org
-# Use SPACEGIT_ROOT and SPACEGIT_PUSH_ROOT for accesing
-#   the DFKI internal packagesets published on spacegit.dfki.uni-bremen.de
-
 package_sets:
   - gitorious: rock-toolchain/package_set
   - spacegit: avalon/package_set
   - spacegit: cuslam/package_set
-#  - spacegit: mars/package_set
   - gitorious: rock-simulation/package_set
 
 layout:
   - rock.base
   - rock.toolchain
   - avalon/orogen/avalonBack
-#  - avalon/orogen/asv
-#  - avalon/orogen/avalon_front
-#  - control/orogen/auv_rel_pos_controller
-#  - image_processing/orogen/offshore_pipeline_detector
-#  - image_processing/orogen/image_preprocessing
-#  - gui/vizkit
-#  - gui/rock_widget_collection
-#  - tools/frame_sync
-#  - tools/pose_viewer
-#  - drivers/orogen/taskmon
-#  - drivers/relaisboard
-#  - simulation/orogen/avalon_simulation
-#  - avalon/orogen/battery_management
-#  - simulation/mars_viz/
-#  - slam/envire
-#  - image_processing/orogen/visual_odometry
-#  - image_processing/visual_odometry
-#  - external/surfGPU
-
+  - avalon/orogen/avalonFront
+  - avalon/orogen/avalonFront
+  - avalon/orogen/avalon_simulation_deployment
+  - simulation/orogen/avalon_simulation 
 
 exclude_packages:
-#  - ocl
-#  - avalon/orogen/asv # net fertig:
-#  - avalon/orogen/buoydetector
-#  - avalon/orogen/testbedServoing # unbenutzt
-#  - avalon/orogen/sonarGUI #Depricated
-#  - avalon/orogen/movement_experiment # unbenutzt
-#  - avalon/orogen/rotation_experiment # baut nicht
-#  - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
-# - control/orogen/auv_control # deprecated
-#  - avalon/battery_management # baut (installiert) nicht
-#  - avalon/orogen/visual_odometry_deployment # s.O.
-#  - avalon/orogen/piplineTracker
-#  - avalon/orogen/motionEstimation
-#  - avalon/orogen/ekfSLAM
-#  - avalon/orogen/buoydetector # old detector
-#  - avalon/ekf_slam
-#  - avalon/avalonModel
-#  - bundles
-#  - dagon/orogen/uwv_dynamic_model #baut nicht 09.08.2012
-
