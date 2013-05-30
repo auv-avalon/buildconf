@@ -16,6 +16,7 @@ layout:
   - supervision
   - scripts
   - drivers/orogen/camera_aravis
+  - drivers/camera_aravis
 #  - drivers/dfki_imu
   - libs/ins_filter
 #  - drivers/orogen/dfki_imu
