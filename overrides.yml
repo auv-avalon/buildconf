@@ -36,8 +36,8 @@ overrides:
       branch: master
   - orogen:
       branch: experimental
-  - drivers/orogen/hbridge:
-      branch: version2
+#  - drivers/orogen/hbridge:
+#      branch: version2
   -  slam/quater_ikf:
       branch: master
 #  - simulation/mars-plugins/avalon-plugin:
