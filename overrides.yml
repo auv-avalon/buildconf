@@ -16,3 +16,9 @@ overrides:
 #      branch: master
   - libs/ins_filter: 
       branch: master
+  - slam/quater_ikf:
+      branch: master
+  - drivers/orogen/canbus:
+      branch: master
+  - drivers/canbus:
+      branch: master
