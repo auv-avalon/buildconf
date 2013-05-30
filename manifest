@@ -13,7 +13,7 @@ layout:
   - rock.base
   - rock.toolchain
   - avalon/orogen/asv
-  - supervision
+#  - supervision
   - scripts
   - drivers/orogen/camera_aravis
   - drivers/camera_aravis
