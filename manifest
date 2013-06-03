@@ -14,7 +14,7 @@ layout:
   - rock.toolchain
   - avalon/orogen/avalonFront
   - avalon/orogen/avalonBack
-  - supervision
+  - bundels/avalon
   - scripts
   - drivers/relaisboard
   - control/orogen/auv_control
