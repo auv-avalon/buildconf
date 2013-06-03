@@ -19,7 +19,7 @@ overrides:
   - control/orogen/auv_control:
       branch: new
 #Dagon could not handle next packages (Jun. 2013)
-  - slam/quater_ukf:
+  - slam/orogen/orientation_estimator:
       branch: master
   - slam/quater_ukf:
       branch: master
