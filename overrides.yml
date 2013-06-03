@@ -10,12 +10,17 @@ overrides:
       branch: master
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
+#Next packages are not includes profiling sonar (Jun 1013)
   - drivers/sonar_tritech:
       branch: master #ex cleanup
   - drivers/orogen/sonar_tritech:
       branch: master #ex cleanup 
+#Jeha should be merged to master and next asap (Jun 2013)
   - control/orogen/auv_control:
       branch: new
+#Dagon could not handle next packages (Jun. 2013)
+  - slam/quater_ukf:
+      branch: master
   - slam/quater_ukf:
       branch: master
   - slam/quater_ikf:
@@ -24,12 +29,15 @@ overrides:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
+#Avalon needs this
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
   - dagon/uwv_dynamic_model:
       branch: avalon
+#???
   - control/motor_controller:
       branch: master
+#waiting for next "next" merge (1.6.2013)
   - drivers/controldev:
       branch: master
   - drivers/orogen/controldev:
