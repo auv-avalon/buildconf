@@ -42,5 +42,7 @@ overrides:
       branch: master
   - drivers/orogen/controldev:
       branch: master
-#  - drivers/orogen/hbridge:
-#      branch: version2
+#Needed for actuator_dispatches which is needed for the sim
+#should be removed asap on the next next merge (1.6.2013)
+  - base/types:
+      branch: master
