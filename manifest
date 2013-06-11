@@ -13,5 +13,6 @@ layout:
   - avalon/orogen/avalonFront
   - avalon/orogen/avalon_simulation_deployment
   - simulation/orogen/avalon_simulation 
+  - bundles/avalon
 
 exclude_packages:

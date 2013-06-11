@@ -8,70 +8,41 @@ overrides:
       branch: visual_detectors
   - simulation/.*:
       branch: master
-#  - drivers/orogen/sonar_tritech:
-#      branch: master
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
-#  - drivers/iodrivers_base:
-#      branch: master
+#Next packages are not includes profiling sonar (Jun 1013)
   - drivers/sonar_tritech:
-      branch: next #ex cleanup
+      branch: master #ex cleanup
   - drivers/orogen/sonar_tritech:
-      branch: next #ex cleanup 
+      branch: master #ex cleanup 
+#Jeha should be merged to master and next asap (Jun 2013)
   - control/orogen/auv_control:
       branch: new
+#Dagon could not handle next packages (Jun. 2013)
+  - slam/orogen/orientation_estimator:
+      branch: master
+  - slam/quater_ukf:
+      branch: master
   - slam/quater_ikf:
       branch: master
-#  - drivers/orogen/controldev:
-#      branch: master
   - image_processing/visual_odometry:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
       commit: ab46e9e60d86eb74d8f70477671e25fa339c988a
+#Avalon needs this
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
   - dagon/uwv_dynamic_model:
       branch: avalon
+#???
   - control/motor_controller:
       branch: master
-  - orogen:
-      branch: experimental
-  - drivers/orogen/hbridge:
-      branch: version2
-  -  slam/quater_ikf:
+#waiting for next "next" merge (1.6.2013)
+  - drivers/controldev:
       branch: master
-#  - simulation/mars-plugins/avalon-plugin:
-#      branch: eigen3
-#  - simulation/mars_graphics: 
-#      commit: 63e02761eefbae70c6e007c42abe85a452d5be1c
-#  - simulation/console_dfki: 
-#      commit: 54309d0ba247c1d908cd40388385811b6239fba4
-#  - simulation/osgOcean: 
-#      commit: 2f82281782d099656313b48bf52de01f1c6feff6
-#  - simulation/orogen/mars_core: 
-#      commit: b9db4a44410f39e0786a866a26dd6be9063956df
-#  - simulation/mars-plugins/marsusim: 
-#      commit: 34bfb4e22455734005f28933347fdbbc92a272a6
-#  - simulation/mars_app: 
-#      commit: 718b16a614f05b0c9bada9bb880280e71cd9166d
-#  - simulation/mars-plugins/multisim_plugin: 
-#      commit: adfb22c45895641cae0c9a236fd120bc445a9dce
-#  - simulation/gui_cfg: 
-#      commit: 87ac0fd782b7ac1782eac6c0aece681260ad763b
-#  - simulation/cfg_dfki: 
-#      commit: dba8ec56cce20f6f98184a9637851c8df05d892e
-#  - simulation/mars_sim: 
-#      commit: 555f65a8992501be3ac28ed2c91eb1b66e65eaf6
-#  - simulation/lib_manager: 
-#      commit: 67476e54d9db612e7c6f9dafdf8d5a388d043048
-#  - simulation/data_broker: 
-#      commit: 958ad3adaf681dd079c44ec79e67ba48148a677a
-#  - simulation/gui_core: 
-#      commit: 5daf9da8ded9eea2a87793b2755c815ceec89be1
-#  - simulation/mars_core: 
-#      commit: 5a711c389257cfa6b4a0b6b451fba2c869ca6b71
-#  - simulation/mars_gui: 
-#      commit: b236d3203713d60ab2f25c719d17db49e5193518
-  
-  
-
+  - drivers/orogen/controldev:
+      branch: master
+#Needed for actuator_dispatches which is needed for the sim
+#should be removed asap on the next next merge (1.6.2013)
+  - base/types:
+      branch: master
