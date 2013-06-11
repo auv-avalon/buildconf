@@ -46,3 +46,6 @@ overrides:
 #should be removed asap on the next next merge (1.6.2013)
   - base/types:
       branch: master
+  - simulation/orogen/mars_core:
+      url: $GITORIOUS_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
+      push_to: $GITORIOUS_PUSH_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
