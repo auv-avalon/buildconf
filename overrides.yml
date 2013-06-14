@@ -12,9 +12,9 @@ overrides:
       branch: version2
   - drivers/orogen/hbridge:
       branch: version2
-#  - image_processing/frame_helper:
-#      url: $GITORIOUS_ROOT/~ffranzen/rock-image-processing/ffranzens-frame_helper.git
-#      push_to: $GITORIOUS_PUSH_ROOT/~ffranzen/rock-image-processing/ffranzens-frame_helper.git
+  - image_processing/frame_helper:
+      url: $GITORIOUS_ROOT/~ffranzen/rock-image-processing/ffranzens-frame_helper.git
+      push_to: $GITORIOUS_PUSH_ROOT/~ffranzen/rock-image-processing/ffranzens-frame_helper.git
 #  - drivers/dfki_imu:
 #      branch: master
   - libs/ins_filter: 
