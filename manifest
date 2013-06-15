@@ -12,6 +12,7 @@ layout:
   - avalon/orogen/avalonFront
   - avalon/orogen/avalonFront
   - avalon/orogen/avalon_simulation_deployment
+  - avalon/orogen/depth_map
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
 
