@@ -23,11 +23,11 @@ setup_package('slam/envire') do |pkg|
     pkg.parallel_build_level = 1
 end
 
-if Autoproj.user_config('ROCK_FLAVOR') == 'next'
-    setup_package('orogen') do |pkg|
-        pkg.importer = Autobuild::Git.new(pkg.importer.repository,pkg.importer.branch,:commit => "2442b57d8e5da5f3ecaca7b2e291308ebe7f88a1")
-    end
-end
+#if Autoproj.user_config('ROCK_FLAVOR') == 'next'
+#    setup_package('orogen') do |pkg|
+#        pkg.importer = Autobuild::Git.new(pkg.importer.repository,pkg.importer.branch,:commit => "2442b57d8e5da5f3ecaca7b2e291308ebe7f88a1")
+#    end
+#end
 
 #Autobuild::Orogen.always_regenerate = true 
 
