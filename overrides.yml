@@ -6,25 +6,25 @@ overrides:
       branch: ModelBased
   - avalon/orogen/buoydetector:
       branch: visual_detectors
-  - simulation/.*:
-      branch: master
+#  - simulation/.*:
+#      branch: master
   - image_processing/orogen/offshore_pipeline_detector:
       branch: avalon
 #Next packages are not includes profiling sonar (Jun 1013)
-  - drivers/sonar_tritech:
-      branch: master #ex cleanup
-  - drivers/orogen/sonar_tritech:
-      branch: master #ex cleanup 
+#  - drivers/sonar_tritech:
+#      branch: master #ex cleanup
+#  - drivers/orogen/sonar_tritech:
+#      branch: master #ex cleanup 
 #Jeha should be merged to master and next asap (Jun 2013)
   - control/orogen/auv_control:
       branch: new
 #Dagon could not handle next packages (Jun. 2013)
-  - slam/orogen/orientation_estimator:
-      branch: master
-  - slam/quater_ukf:
-      branch: master
-  - slam/quater_ikf:
-      branch: master
+#  - slam/orogen/orientation_estimator:
+#      branch: master
+#  - slam/quater_ukf:
+#      branch: master
+#  - slam/quater_ikf:
+#      branch: master
   - image_processing/visual_odometry:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
@@ -35,20 +35,20 @@ overrides:
   - dagon/uwv_dynamic_model:
       branch: avalon
 #???
-  - control/motor_controller:
-      branch: master
+#  - control/motor_controller:
+#      branch: master
 #waiting for next "next" merge (1.6.2013)
-  - drivers/controldev:
-      branch: master
-  - drivers/orogen/controldev:
-      branch: master
+#  - drivers/controldev:
+#      branch: master
+#  - drivers/orogen/controldev:
+#      branch: master
 #Needed for actuator_dispatches which is needed for the sim
 #should be removed asap on the next next merge (1.6.2013)
-  - base/types:
-      branch: master
-  - simulation/orogen/mars_core:
-      url: $GITORIOUS_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
-      push_to: $GITORIOUS_PUSH_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
+#  - base/types:
+#      branch: master
+#  - simulation/orogen/mars_core:
+#      url: $GITORIOUS_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
+#      push_to: $GITORIOUS_PUSH_ROOT/~nautilator2k10/rock-simulation/nautilator2k10s-orogen-mars_core.git
   - gui/rock_widget_collection:
       url: $GITORIOUS_ROOT/~ffranzen/rock-gui/ffranzens-rock_widget_collection.git
       push_to: $GITORIOUS_PUSH_ROOT/~ffranzen/rock-gui/ffranzens-rock_widget_collection.git
