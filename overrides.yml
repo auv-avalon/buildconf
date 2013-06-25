@@ -6,8 +6,8 @@ overrides:
       branch: ModelBased
   - control/orogen/auv_control:
       branch: new
-  - control/motor_controller:
-      branch: master
+#  - control/motor_controller:
+#      branch: master
   - drivers/hbridge:
       branch: version2
   - drivers/orogen/hbridge:
@@ -17,11 +17,11 @@ overrides:
       push_to: $GITORIOUS_PUSH_ROOT/~ffranzen/rock-image-processing/ffranzens-frame_helper.git
 #  - drivers/dfki_imu:
 #      branch: master
-  - libs/ins_filter: 
-      branch: master
-  - slam/quater_ikf:
-      branch: master
-  - drivers/orogen/canbus:
-      branch: master
-  - drivers/canbus:
-      branch: master
+#  - libs/ins_filter: 
+#      branch: master
+#  - slam/quater_ikf:
+#      branch: master
+#  - drivers/orogen/canbus:
+#      branch: master
+#  - drivers/canbus:
+#      branch: master
