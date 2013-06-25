@@ -6,8 +6,6 @@ overrides:
 ##      branch: stable 
 #  - tools/roby:
 #      branch: stable 
-  - control/orogen/auv_control:
-      branch: new
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
@@ -26,15 +24,15 @@ overrides:
       branch: new
   - avalon/orogen/rawControlCommandConverter:
       branch: newControlDraw
-  - slam/orogen/orientation_estimator:
-      branch: master
-  - slam/quater_ukf:
-      branch: master
-  - slam/quater_ikf:
-      branch: master
-  - drivers/controldev:
-      branch: master
-  - drivers/orogen/controldev:
-      branch: master
-  - control/motor_controller:
-      branch: master
+#  - slam/orogen/orientation_estimator:
+#      branch: master
+#  - slam/quater_ukf:
+#      branch: master
+#  - slam/quater_ikf:
+#      branch: master
+#  - drivers/controldev:
+#      branch: master
+#  - drivers/orogen/controldev:
+#      branch: master
+#  - control/motor_controller:
+#      branch: master
