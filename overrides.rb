@@ -61,6 +61,19 @@ end
 
 remove_from_default 'external/sisl'
 
+if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
+    metapackage('rock').weak_dependencies = true
+    metapackage('rock.toolchain').weak_dependencies = true
+    metapackage('rock.base').weak_dependencies = true
+end
+
+
+#Autoproj.manifest.metapackages.each do |name,pkg|
+#    if pkg.name == "rock.toolchain" or pkg.name == "rock.base" 
+#        pkg.instance_variable_set(:@weak_dependencies,true)
+#    end
+#end
+
 cmake_package 'external/sisl' do |pkg|
     pkg.define "BUILD_SHARED_LIBS","ON"
     update_archive(pkg, "http://www.sintef.no/upload/IKT/9011/geometri/sisl/sisl-4.5.0.tar.gz", "4.5.0") do
