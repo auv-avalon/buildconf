@@ -34,6 +34,10 @@ overrides:
       branch: avalon
   - dagon/uwv_dynamic_model:
       branch: avalon
+  - drivers/orogen/hbridge:
+      branch: version2
+  - drivers/hbridge:
+      branch: version2
 #???
 #  - control/motor_controller:
 #      branch: master
