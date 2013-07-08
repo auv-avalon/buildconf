@@ -17,6 +17,12 @@ end
 Autobuild::Orogen.always_regenerate = true 
 
 
+if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
+    metapackage('rock').weak_dependencies = true
+    metapackage('rock.toolchain').weak_dependencies = true
+    metapackage('rock.base').weak_dependencies = true
+end
+
 require "socket"
 if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         STDOUT.puts "####  Not building GUI Based packes on Avalon  ####"
