@@ -8,9 +8,10 @@ if package_selected?('rtt')
 end
 
 
-setup_package 'gui/rock_widget_collection' do |pkg|
-    pkg.define "USE_VTK", "ON"
-end
+#Not really currently supported by Alex 11.07.2013
+#setup_package 'gui/rock_widget_collection' do |pkg|
+#    pkg.define "USE_VTK", "ON"
+#end
 
 #setup_package 'external/opencv' do |pkg|
 #    pkg.define "BUILD_TESTS", "OFF"
