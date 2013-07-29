@@ -69,11 +69,16 @@ if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
 end
 
 
-#Autoproj.manifest.metapackages.each do |name,pkg|
-#    if pkg.name == "rock.toolchain" or pkg.name == "rock.base" 
-#        pkg.instance_variable_set(:@weak_dependencies,true)
-#    end
-#end
+File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
+    s = io.read
+    if not s.include?("-rpy") and 
+        s.sub!("\"$@\""," -rpy \"$@\"")
+        io.seek(0)
+        io.write(s)
+    end
+    package('avalon/orogen/avalon_base').depends_on 'pry' 
+end
+
 
 cmake_package 'external/sisl' do |pkg|
     pkg.define "BUILD_SHARED_LIBS","ON"
