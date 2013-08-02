@@ -71,8 +71,8 @@ end
 
 File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
     s = io.read
-    if not s.include?("-rpy") and 
-        s.sub!("\"$@\""," -rpy \"$@\"")
+    if not s.include?("-rpy")
+        s.sub!("\"$@\""," -rpry \"$@\"")
         io.seek(0)
         io.write(s)
     end
