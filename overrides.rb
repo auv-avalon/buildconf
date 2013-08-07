@@ -69,14 +69,16 @@ if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
 end
 
 
-File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
-    s = io.read
-    if not s.include?("-rpy")
-        s.sub!("\"$@\""," -rpry \"$@\"")
-        io.seek(0)
-        io.write(s)
+if not Socket.gethostname.include?("build")
+    File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
+        s = io.read
+        if not s.include?("-rpy")
+            s.sub!("\"$@\""," -rpry \"$@\"")
+            io.seek(0)
+            io.write(s)
+        end
+        package('avalon/orogen/avalon_base').depends_on 'pry' 
     end
-    package('avalon/orogen/avalon_base').depends_on 'pry' 
 end
 
 
