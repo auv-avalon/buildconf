@@ -2,6 +2,10 @@
 # locally override version control information.
 
 overrides:
+  #We do HEAD development for the avalon project
+  - avalon/.*:
+      branch: master
+
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
@@ -18,10 +22,6 @@ overrides:
 #Avalon needs this
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
-
-    #1.09.2013 next is incomatible to the avalon requirements for sim
-    #  - simulation/.*:
-    #  branch: master
 
   - dagon/uwv_dynamic_model:
       branch: avalon
