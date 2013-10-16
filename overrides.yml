@@ -20,8 +20,8 @@ overrides:
       branch: avalon
 
     #1.09.2013 next is incomatible to the avalon requirements for sim
-  - simulation/.*:
-      branch: master
+    #  - simulation/.*:
+    #  branch: master
 
   - dagon/uwv_dynamic_model:
       branch: avalon
