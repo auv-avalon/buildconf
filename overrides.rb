@@ -53,14 +53,13 @@ end
 
     
 #checking out the new version of yaml for avalon
-setup_package 'external/yaml-cpp' do |pkg|
-    pkg.define("BUILD_SHARED_LIBS","ON")
-        update_archive(pkg, "http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz", "0.3.0") do
-        File.readlines(File.join(pkg.srcdir,"CMakeLists.txt")).grep(/YAML_CPP_VERSION_MINOR "3"/) == []
-    end
-end
-
-remove_from_default 'external/sisl'
+#setup_package 'external/yaml-cpp' do |pkg|
+#    pkg.define("BUILD_SHARED_LIBS","ON")
+#        update_archive(pkg, "http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz", "0.3.0") do
+#        File.readlines(File.join(pkg.srcdir,"CMakeLists.txt")).grep(/YAML_CPP_VERSION_MINOR "3"/) == []
+#    end
+#end
+#remove_from_default 'external/sisl'
 
 if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
     metapackage('rock').weak_dependencies = true
@@ -82,9 +81,9 @@ if not Socket.gethostname.include?("build")
 end
 
 
-cmake_package 'external/sisl' do |pkg|
-    pkg.define "BUILD_SHARED_LIBS","ON"
-    update_archive(pkg, "http://www.sintef.no/upload/IKT/9011/geometri/sisl/sisl-4.5.0.tar.gz", "4.5.0") do
-            !File.exists?(File.join(pkg.srcdir,"CMakeLists.txt"))
-    end
-end
+#cmake_package 'external/sisl' do |pkg|
+#    pkg.define "BUILD_SHARED_LIBS","ON"
+#    update_archive(pkg, "http://www.sintef.no/upload/IKT/9011/geometri/sisl/sisl-4.5.0.tar.gz", "4.5.0") do
+#            !File.exists?(File.join(pkg.srcdir,"CMakeLists.txt"))
+#    end
+#end
