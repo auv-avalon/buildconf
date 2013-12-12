@@ -41,12 +41,3 @@ if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         ignore "avalon/orogen/movement_experiment"
         ignore ".*structured_light"
 end
-
-
-#checking out the new version of yaml for avalon
-setup_package 'external/yaml-cpp' do |pkg|
-    pkg.define("BUILD_SHARED_LIBS","ON")
-        update_archive(pkg, "http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz", "0.3.0") do
-        File.readlines(File.join(pkg.srcdir,"CMakeLists.txt")).grep(/YAML_CPP_VERSION_MINOR "3"/) == []
-    end
-end
