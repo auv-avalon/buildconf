@@ -31,8 +31,8 @@ overrides:
 #      branch: version2
 
   # Matthias Thesis stuff
-  - tools/roby:
-       branch: realtime_adaptation
-  - tools/syskit:
-       branch: realtime_adaptation 
+  #  - tools/roby:
+  #     branch: realtime_adaptation
+  #- tools/syskit:
+  #     branch: realtime_adaptation 
 

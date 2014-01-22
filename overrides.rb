@@ -24,6 +24,7 @@ setup_package('slam/envire') do |pkg|
     pkg.parallel_build_level = 1
 end
 
+
 #if Autoproj.user_config('ROCK_FLAVOR') == 'next'
 #    setup_package('orogen') do |pkg|
 #        pkg.importer = Autobuild::Git.new(pkg.importer.repository,pkg.importer.branch,:commit => "2442b57d8e5da5f3ecaca7b2e291308ebe7f88a1")
@@ -68,17 +69,17 @@ if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
 end
 
 
-if not Socket.gethostname.include?("build")
-    File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
-        s = io.read
-        if not s.include?("-rpy")
-            s.sub!("\"$@\""," -rpry \"$@\"")
-            io.seek(0)
-            io.write(s)
-        end
-        package('avalon/orogen/avalon_base').depends_on 'pry' 
-    end
-end
+#if not Socket.gethostname.include?("build")
+#    File.open(File.join(Autoproj.root_dir,'install','bin', 'ruby'), "r+") do |io|
+#        s = io.read
+#        if not s.include?("-rpy")
+#            s.sub!("\"$@\""," -rpry \"$@\"")
+#            io.seek(0)
+#            io.write(s)
+#        end
+#        package('avalon/orogen/avalon_base').depends_on 'pry' 
+#    end
+#end
 
 
 #cmake_package 'external/sisl' do |pkg|
