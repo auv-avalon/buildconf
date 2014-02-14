@@ -10,8 +10,6 @@ layout:
   - slam/envire
   - avalon/orogen/avalonBack
   - avalon/orogen/avalonFront
-  - avalon/orogen/avalonFront
-  - avalon/orogen/avalon_simulation_deployment
   - avalon/orogen/depth_map
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
