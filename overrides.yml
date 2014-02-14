@@ -33,6 +33,8 @@ overrides:
   # Matthias Thesis stuff
   #  - tools/roby:
   #     branch: realtime_adaptation
-  #- tools/syskit:
-  #     branch: realtime_adaptation 
+  - tools/syskit:
+      push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
+      url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
+
 
