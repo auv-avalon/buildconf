@@ -7,6 +7,12 @@ if package_selected?('rtt')
     package('rtt').define "ENABLE_MQ", "ON"
 end
 
+#Test setup for https://rock.opendfki.de/ticket/384
+Autoproj.post_import do |pkg|
+    if pkg.kind_of?(Autobuild::CMake)
+        pkg.define "CMAKE_EXPORT_COMPILE_COMMANDS", "ON"
+    end
+end
 
 #Not really currently supported by Alex 11.07.2013
 #setup_package 'gui/rock_widget_collection' do |pkg|
