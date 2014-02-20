@@ -33,11 +33,18 @@ overrides:
   # Matthias Thesis stuff
   #  - tools/roby:
   #     branch: realtime_adaptation
+
+  # Contains HBridge Workarounds:
   - tools/syskit:
       push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
       url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
+  # Moved to the public gitorious server to grant Sylvain access
   - bundles/avalon:
       push_to: git@gitorious.org:avalon/bundle.git 
       url: git://gitorious.org/avalon/bundle.git
+  # Patches for scheduling and SlaveActivities
+  - rtt:
+      url: git://gitorious.org/orocos-toolchain/goldhoorns-rtt.git
+      push_to: git@gitorious.org:orocos-toolchain/goldhoorns-rtt.git
 
 
