@@ -21,9 +21,9 @@ overrides:
   - dagon/uwv_dynamic_model:
       branch: avalon
   - control/orogen/auv_control:
-      branch: new
-  - avalon/orogen/rawControlCommandConverter:
-      branch: newControlDraw
+      branch: final_cleanup 
+  #- avalon/orogen/rawControlCommandConverter:
+  #    branch: newControlDraw
   - drivers/orogen/hbridge:
       branch: version2
   - drivers/hbridge:
@@ -40,3 +40,14 @@ overrides:
 #      branch: master
 #  - control/motor_controller:
 #      branch: master
+  # Matthias Thesis stuff
+  #  - tools/roby:
+  #     branch: realtime_adaptation
+  - tools/syskit:
+      push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
+      url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
+  - bundles/avalon:
+      push_to: git@gitorious.org:avalon/bundle.git 
+      url: git://gitorious.org/avalon/bundle.git
+
+
