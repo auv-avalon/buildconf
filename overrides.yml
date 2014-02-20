@@ -36,5 +36,8 @@ overrides:
   - tools/syskit:
       push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
       url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
+  - bundles/avalon:
+      push_to: git@gitorious.org:avalon/bundle.git 
+      url: git://gitorious.org/avalon/bundle.git
 
 
