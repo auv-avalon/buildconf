@@ -14,7 +14,7 @@ overrides:
       branch: avalon
 #Jeha should be merged to master and next asap (Jun 2013)
   - control/orogen/auv_control:
-      branch: new
+      branch: final_cleanup
   - image_processing/visual_odometry:
       commit: 95e005a9404badf350beb2a808f4eab80e11be82
   - image_processing/orogen/visual_odometry:
@@ -22,7 +22,6 @@ overrides:
 #Avalon needs this
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
-
   - dagon/uwv_dynamic_model:
       branch: avalon
   - drivers/orogen/hbridge:
