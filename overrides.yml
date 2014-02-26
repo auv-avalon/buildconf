@@ -2,6 +2,9 @@
 # locally override version control information.
 
 overrides:
+    #All avalon packaes are only on master supported
+  - avalon/.*:
+      branch: master
 #  - tools/orocos.rb:
 ##      branch: stable 
 #  - tools/roby:
