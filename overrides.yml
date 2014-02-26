@@ -9,6 +9,8 @@ overrides:
 ##      branch: stable 
 #  - tools/roby:
 #      branch: stable 
+  - drivers/camera_unicap:
+      branch: master
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
