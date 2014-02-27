@@ -59,3 +59,8 @@ Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true
 
+#We are using icecc
+if ENV['PATH'].include?("icecc")
+    STDOUT.puts "Increasing parralel build level to 50, because icecc is availible"
+    Autobuild.parallel_build_level = 50
+end
