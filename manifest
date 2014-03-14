@@ -3,6 +3,7 @@ package_sets:
   - spacegit: avalon/package_set
   - spacegit: cuslam/package_set
   - gitorious: rock-simulation/package_set
+  - gitorious: rock-tutorials/package_set
 
 layout:
   - rock.base

@@ -24,10 +24,10 @@ overrides:
       branch: avalon
   - dagon/uwv_dynamic_model:
       branch: avalon
-  - drivers/orogen/hbridge:
-      branch: version2
-  - drivers/hbridge:
-      branch: version2
+#  - drivers/orogen/hbridge:
+#      branch: version2
+#  - drivers/hbridge:
+#      branch: version2
 
   # Matthias Thesis stuff
   #  - tools/roby:
