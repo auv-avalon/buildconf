@@ -3,6 +3,8 @@ package_sets:
   - spacegit: avalon/package_set
   - spacegit: cuslam/package_set
   - gitorious: rock-simulation/package_set
+  - spacegit: compilerspeedup/package_set
+    branch: icecc
 
 layout:
   - rock.base
@@ -13,5 +15,6 @@ layout:
   - avalon/orogen/depth_map
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
+  - scripts
 
 exclude_packages:
