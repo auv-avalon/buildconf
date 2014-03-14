@@ -29,10 +29,6 @@ overrides:
       branch: final_cleanup 
   #- avalon/orogen/rawControlCommandConverter:
   #    branch: newControlDraw
-  - drivers/orogen/hbridge:
-      branch: version2
-  - drivers/hbridge:
-      branch: version2
 #  - slam/orogen/orientation_estimator:
 #      branch: master
 #  - slam/quater_ukf:
