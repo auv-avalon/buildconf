@@ -22,6 +22,8 @@ overrides:
 #Avalon needs this
   - dagon/orogen/uwv_dynamic_model:
       branch: avalon
+  - drivers/orogen/controldev:
+      branch: cleanup 
   - dagon/uwv_dynamic_model:
       branch: avalon
 #  - drivers/orogen/hbridge:
