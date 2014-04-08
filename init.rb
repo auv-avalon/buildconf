@@ -60,7 +60,7 @@ Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true
 
 #We are using icecc
-if ENV['PATH'].include?("icecc")
-    STDOUT.puts "Increasing parralel build level to 20, because icecc is availible"
+#if ENV['PATH'].include?("icecc")
+    #STDOUT.puts "Increasing parralel build level to 20, because icecc is availible"
     #Autobuild.parallel_build_level = 20
-end
+#end
