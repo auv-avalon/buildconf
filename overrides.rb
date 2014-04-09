@@ -39,10 +39,10 @@ end
 
 #Autobuild::Orogen.always_regenerate = true 
 
-if Socket.gethostname == "mgoldhoorn"
-    Autobuild::Package['tools/syskit'].importer.branch="realtime_adaptation"
-    Autobuild::Package['tools/roby'].importer.branch="realtime_adaptation"
-end
+#if Socket.gethostname == "mgoldhoorn"
+#    Autobuild::Package['tools/syskit'].importer.branch="realtime_adaptation"
+#    Autobuild::Package['tools/roby'].importer.branch="realtime_adaptation"
+#end
 
 if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         STDOUT.puts "####  Not building GUI Based packes on Avalon  ####"
