@@ -1,7 +1,7 @@
 package_sets:
   - gitorious: rock-toolchain/package_set
   - spacegit: avalon/package_set
-  - spacegit: cuslam/package_set
+#  - spacegit: cuslam/package_set
   - gitorious: rock-simulation/package_set
   - spacegit: compilerspeedup/package_set
     branch: icecc
