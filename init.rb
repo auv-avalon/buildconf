@@ -16,7 +16,7 @@
 # Additionally, you can set up your own custom environment with calls to env_add
 # and env_set:
 #
-env_add 'PATH', "/usr/lib/ccache/"
+#env_add 'PATH', "/usr/lib/ccache/"
 # env_set 'CMAKE_PREFIX_PATH', "/opt/boost;/opt/xerces"
 # env_set 'CMAKE_INSTALL_PATH', "/opt/orocos"
 #
@@ -61,6 +61,6 @@ Autobuild::Orogen.extended_states = true
 
 #We are using icecc
 if ENV['PATH'].include?("icecc")
-    STDOUT.puts "Increasing parralel build level to 50, because icecc is availible"
-    Autobuild.parallel_build_level = 50
+    STDOUT.puts "Increasing parralel build level to 20, because icecc is availible"
+    Autobuild.parallel_build_level = 20
 end
