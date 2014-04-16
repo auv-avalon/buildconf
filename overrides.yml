@@ -26,6 +26,8 @@ overrides:
       branch: cleanup 
   - dagon/uwv_dynamic_model:
       branch: avalon
+  - typelib:
+      commit: 96f92540d6ccaf4a50411005e0b642958c8918f3
 #  - drivers/orogen/hbridge:
 #      branch: version2
 #  - drivers/hbridge:
