@@ -40,7 +40,9 @@ overrides:
   # Contains HBridge Workarounds:
   - tools/syskit:
       push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
-      url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
+      url: git://gitorious.org/rock-toolchain/avalon-syskit.git
+  - tools/roby:
+      commit: db65add1c67355a0aa8f92f0d273e465b4030089
   # Moved to the public gitorious server to grant Sylvain access
   - bundles/avalon:
       push_to: git@gitorious.org:avalon/bundle.git 
