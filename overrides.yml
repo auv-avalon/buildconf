@@ -26,8 +26,11 @@ overrides:
       branch: cleanup 
   - dagon/uwv_dynamic_model:
       branch: avalon
-  - typelib:
-      commit: 96f92540d6ccaf4a50411005e0b642958c8918f3
+  - avalon/arc-ocu:
+      branch: version2
+      #      commit: 90190a4505166710b0d36649b8bf3f1daf337856 
+#  - typelib:
+#      commit: 96f92540d6ccaf4a50411005e0b642958c8918f3
 #  - drivers/orogen/hbridge:
 #      branch: version2
 #  - drivers/hbridge:
@@ -49,7 +52,7 @@ overrides:
       url: git://gitorious.org/avalon/bundle.git
   # Patches for scheduling and SlaveActivities
   - rtt:
-      url: git://gitorious.org/orocos-toolchain/goldhoorns-rtt.git
-      push_to: git@gitorious.org:orocos-toolchain/goldhoorns-rtt.git
+      url: git://gitorious.org/orocos-toolchain/cclausens-rtt.git
+      push_to: git@gitorious.org:orocos-toolchain/cclausens-rtt.git
 
 

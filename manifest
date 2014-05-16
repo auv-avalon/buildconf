@@ -13,6 +13,8 @@ layout:
   - avalon/orogen/avalonBack
   - avalon/orogen/avalonFront
   - avalon/orogen/depth_map
+  - avalon/arc-ocu
+#  - avalon/gui-base-station
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
   - scripts
