@@ -2,6 +2,10 @@
 # locally override version control information.
 
 overrides:
+  - avalon/.*:
+      branch: master
+  - auv_avalon/.*:
+      branch: master
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - control/orogen/auv_control:
