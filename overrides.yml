@@ -5,7 +5,8 @@ overrides:
   #We do HEAD development for the avalon project
   - avalon/.*:
       branch: master
-
+  - auv_avalon/.*:
+      branch: master
   - avalon/orogen/motionEstimation:
       branch: ModelBased
   - avalon/orogen/buoydetector:
