@@ -5,7 +5,7 @@
 
 package_sets:
   - gitorious: rock-toolchain/package_set
-  - github: auv_avalon/package_set
+  - github: auv-avalon/package_set
   - spacegit: avalon/package_set
   - spacegit: cuslam/package_set
   - spacegit: compilerspeedup/package_set
