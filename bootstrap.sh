@@ -1,7 +1,7 @@
 #! /bin/sh
 
-CONF_SERVER=spacegit.dfki.uni-bremen.de
-CONF_REPO=avalon/buildconf.git
+CONF_SERVER=github.com
+CONF_REPO=auv-avalon/buildconf.git
 RUBY=ruby
 
 set -e
