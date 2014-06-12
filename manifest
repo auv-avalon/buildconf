@@ -5,32 +5,22 @@
 
 package_sets:
   - gitorious: rock-toolchain/package_set
+  - github: auv_avalon/package_set
   - spacegit: avalon/package_set
   - spacegit: cuslam/package_set
-  - spacegit: mars/package_set
+  - spacegit: compilerspeedup/package_set
+    branch: icecc
 
 layout:
   - rock.base
   - rock.toolchain
-  - avalon/orogen/asv
-#  - supervision
+  - auv_avalon/orogen/asv
   - scripts
   - drivers/orogen/camera_aravis
   - drivers/camera_aravis
-#  - drivers/dfki_imu
-  - libs/ins_filter
-#  - drivers/orogen/dfki_imu
+
 exclude_packages:
   - ocl
   - gui/vizkit
   - slam/eras
   - slam/orogen/eras_position_estimator
-#  - tools/service_discovery #doof bei ruby 1.9.1 und eh nicht gebraucht
-#Dosn't compile 20110815
-#  - simulation/mars-plugins/avalon-plugin
-#  - simulation/orogen/avalon_simulation
-#  - avalon/orogen/avalon_simulation_deployment
-#  - avalon/visual_detectors
-#  - avalon/orogen/buoydetector
-#- communication/*
-#  - simulation/*
