@@ -48,8 +48,8 @@ overrides:
   #    commit: db65add1c67355a0aa8f92f0d273e465b4030089
   # Moved to the public gitorious server to grant Sylvain access
   - bundles/avalon:
-      push_to: git@gitorious.org:avalon/bundle.git 
-      url: git://gitorious.org/avalon/bundle.git
+      push_to: git@github.com:auv-avalon/bundle.git
+      url: https://github.com/auv-avalon/bundle.git
   # Patches for scheduling and SlaveActivities
   - rtt:
       url: git://gitorious.org/orocos-toolchain/cclausens-rtt.git
