@@ -53,7 +53,7 @@ overrides:
       url: https://github.com/auv-avalon/bundle.git
   # Patches for scheduling and SlaveActivities
   - rtt:
-      url: git://gitorious.org/orocos-toolchain/cclausens-rtt.git
-      push_to: git@gitorious.org:orocos-toolchain/cclausens-rtt.git
+      url: https://github.com/goldhoorn/rtt.git
+      push_to: git@github.com:goldhoorn/rtt.git
 
 
