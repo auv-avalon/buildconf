@@ -25,28 +25,6 @@ overrides:
       branch: avalon
   - control/orogen/auv_control:
       branch: final_cleanup 
-  #- avalon/orogen/rawControlCommandConverter:
-  #    branch: newControlDraw
-#  - slam/orogen/orientation_estimator:
-#      branch: master
-#  - slam/quater_ukf:
-#      branch: master
-#  - slam/quater_ikf:
-#      branch: master
-#  - drivers/controldev:
-#      branch: master
-#  - drivers/orogen/controldev:
-#      branch: master
-#  - control/motor_controller:
-#      branch: master
-  # Matthias Thesis stuff
-  #  - tools/roby:
-  #     branch: realtime_adaptation
-#  - tools/syskit:
-#      push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
-#      url: git://gitorious.org/rock-toolchain/avalon-syskit.git 
-#  - bundles/avalon:
-#      push_to: git@gitorious.org:avalon/bundle.git 
-#      url: git://gitorious.org/avalon/bundle.git
-
+  - avalon/arc-ocu:
+      branch: version2
 
