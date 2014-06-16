@@ -45,6 +45,7 @@ YAML::ENGINE.yamler = 'syck'
 
 Autoproj.gitorious_server_configuration('GITORIOUS', 'gitorious.org')
 Autoproj.gitorious_server_configuration('SPACEGIT', 'spacegit.dfki.uni-bremen.de',:fallback_to_http => false)
+Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
 
  
 #Autoproj.change_option('GITORIOUS_ROOT', 'git://192.168.128.50')

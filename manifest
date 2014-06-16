@@ -5,15 +5,15 @@
 
 package_sets:
   - gitorious: rock-toolchain/package_set
+  - github: auv-avalon/package_set
   - spacegit: avalon/package_set
-#  - spacegit: cuslam/package_set
-  - spacegit: mars/package_set
 
 layout:
   - rock.base
   - rock.toolchain
-  - avalon/orogen/avalonFront
-  - avalon/orogen/avalonBack
+  - auv_avalon/orogen/avalon_back
+  - auv_avalon/orogen/avalon_front
+  - avalon/arc-ocu
   - bundles/avalon 
   - scripts
   - drivers/relaisboard
