@@ -19,7 +19,5 @@ layout:
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
   - scripts
-  - tutorials/message_driver
-  - tutorials/orogen/message_consumer
 
 exclude_packages:
