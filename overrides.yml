@@ -29,23 +29,9 @@ overrides:
       branch: avalon
   - avalon/arc-ocu:
       branch: version2
-      #      commit: 90190a4505166710b0d36649b8bf3f1daf337856 
-#  - typelib:
-#      commit: 96f92540d6ccaf4a50411005e0b642958c8918f3
-#  - drivers/orogen/hbridge:
-#      branch: version2
-#  - drivers/hbridge:
-#      branch: version2
-
-  # Matthias Thesis stuff
-  #  - tools/roby:
-  #     branch: realtime_adaptation
-
-  # Contains HBridge Workarounds:
-  #  - tools/syskit:
-  #   push_to: git@gitorious.org:rock-toolchain/avalon-syskit.git
-  #    url: git://gitorious.org/rock-toolchain/avalon-syskit.git
-  #- tools/roby:
-  #    commit: db65add1c67355a0aa8f92f0d273e465b4030089
-  # Moved to the public gitorious server to grant Sylvain access
-
+  - tools/syskit:
+      url: https://github.com/rock-core/tools-syskit.git
+      push_to: git@github.com:rock-core/tools-syskit.git
+  - tools/roby:
+      url: https://github.com/rock-core/tools-roby.git
+      push_to: git@github.com:rock-core/tools-roby.git
