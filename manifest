@@ -18,6 +18,8 @@ layout:
 #  - avalon/gui-base-station
   - simulation/orogen/avalon_simulation 
   - bundles/avalon
+  - auv_avalon/modemdriver_tritech
+  - auv_avalon/orogen/modemdriver_tritech
   - scripts
 
 exclude_packages:
