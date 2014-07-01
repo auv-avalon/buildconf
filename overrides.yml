@@ -35,3 +35,6 @@ overrides:
   - tools/roby:
       url: https://github.com/rock-core/tools-roby.git
       push_to: git@github.com:rock-core/tools-roby.git
+  - orogen:
+      url: https://github.com/goldhoorn/orogen.git
+      push_to: git@github.com:goldhoorn/orogen.git
