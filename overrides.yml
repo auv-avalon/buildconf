@@ -27,17 +27,3 @@ overrides:
       branch: final_cleanup 
   - avalon/arc-ocu:
       branch: version2
-  - orogen:
-      branch: orogen_loaders
-  - tools/orocos.rb:
-      branch: orogen_loaders
-  - tools/syskit:
-      branch: orogen_loaders
-#  - base/scripts:
-#      branch: orogen_loaders
-  - gui/vizkit:
-      branch: orogen_loaders
-  - bundles/rock:
-      branch: orogen_loaders
-  - drivers/transformer:
-      branch: orogen_loaders
