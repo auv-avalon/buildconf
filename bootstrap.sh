@@ -53,9 +53,9 @@ do
 done
 
 if [ "$ANSWER" = "n" ]; then
-    $RUBY autoproj_bootstrap $@ git http://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=avalon
+    $RUBY autoproj_bootstrap $@ git http://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=orogen_loader_avalon
 else
-    $RUBY autoproj_bootstrap $@ git git://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=avalon
+    $RUBY autoproj_bootstrap $@ git git://$CONF_SERVER/$CONF_REPO push_to=git@$CONF_SERVER:$CONF_REPO branch=orogen_loader_avalon
 fi
 
 if test "x$@" != "xlocaldev"; then
