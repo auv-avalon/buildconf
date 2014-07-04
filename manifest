@@ -5,6 +5,7 @@
 
 package_sets:
   - github: rock-core/package_set
+  - github: rock-core/rock-package_set
   - github: auv-avalon/package_set
   - spacegit: avalon/package_set
 
@@ -15,12 +16,13 @@ layout:
   - avalon/arc-ocu
   - bundles/avalon 
   - scripts
-  - drivers/relaisboard
+#  - drivers/relaisboard
   - control/orogen/auv_control
 
 exclude_packages:
   - ocl
   - gui/vizkit
+  - gui/vizkit3d
   - slam/eras
   - slam/orogen/eras_position_estimator
   - qtbindings

@@ -60,6 +60,9 @@ Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 Autobuild::Orogen.transports << "mqueue"
 Autobuild::Orogen.extended_states = true
 
+if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
+    metapackage('rock.core').weak_dependencies = true
+end
 #We are using icecc
 #if ENV['PATH'].include?("icecc")
 #    STDOUT.puts "Increasing parralel build level to 20, because icecc is availible"

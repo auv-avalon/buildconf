@@ -41,3 +41,7 @@ if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         ignore "avalon/orogen/movement_experiment"
         ignore ".*structured_light"
 end
+
+if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
+    metapackage('rock.core').weak_dependencies = true
+end
