@@ -4,13 +4,12 @@
 #   the DFKI internal packagesets published on spacegit.dfki.uni-bremen.de
 
 package_sets:
-  - gitorious: rock-toolchain/package_set
+  - github: rock-core/package_set
   - github: auv-avalon/package_set
   - spacegit: avalon/package_set
 
 layout:
-  - rock.base
-  - rock.toolchain
+  - rock.core
   - auv_avalon/orogen/avalon_back
   - auv_avalon/orogen/avalon_front
   - avalon/arc-ocu
