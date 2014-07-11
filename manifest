@@ -21,5 +21,14 @@ layout:
   - auv_avalon/modemdriver_tritech
   - auv_avalon/orogen/modemdriver_tritech
   - scripts
+  - drivers/orogen/camera_prosilica
+  - drivers/orogen/video_streamer_vlc
+  - simulation/orogen/mars_core
+  - slam/g2o
+  - external/ode
+  - drivers/camera_prosilica
+  - drivers/video_streamer_vlc
+  - drivers/actuator_dispatcher
+
 
 exclude_packages:
