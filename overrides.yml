@@ -39,5 +39,7 @@ overrides:
       branch: orogen_loaders
   - bundles/rock:
       branch: orogen_loaders
+  - bundles/avalon:
+      branch: interrim_working 
   - drivers/transformer:
       branch: orogen_loaders
