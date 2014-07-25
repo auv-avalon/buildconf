@@ -37,8 +37,8 @@ overrides:
       branch: orogen_loaders
   - tools/syskit:
       branch: orogen_loaders
-#  - base/scripts:
-#      branch: orogen_loaders
+  - base/scripts:
+      branch: orogen_loaders
   - gui/vizkit:
       branch: orogen_loaders
   - bundles/rock:
