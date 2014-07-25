@@ -29,8 +29,6 @@ overrides:
       branch: avalon
   - avalon/arc-ocu:
       branch: version2
-  - bundles/avalon:
-      branch: interrim_working
   - orogen:
       branch: orogen_loaders
   - tools/orocos.rb:
