@@ -31,8 +31,8 @@ overrides:
       branch: version2
   - orogen:
       branch: orogen_loaders
-#  - tools/orocos.rb:
-#      branch: orogen_loaders
+  - tools/orocos.rb:
+      branch: orogen_loaders
 #  - tools/syskit:
 #      branch: orogen_loaders
   - base/scripts:
@@ -46,7 +46,7 @@ overrides:
 
   #manual override to remove
   - tools/orocos.rb:
-      branch: fix_oroconf
+      branch: orogen_loaders 
       url: https://github.com/goldhoorn/tools-orocosrb.git
   - tools/syskit:
       branch: process_manager
