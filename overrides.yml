@@ -33,8 +33,8 @@ overrides:
       branch: orogen_loaders
   - tools/orocos.rb:
       branch: orogen_loaders
-#  - tools/syskit:
-#      branch: orogen_loaders
+  - tools/syskit:
+      branch: orogen_loaders
   - base/scripts:
       branch: orogen_loaders
   - gui/vizkit:
@@ -45,27 +45,11 @@ overrides:
       branch: orogen_loaders
 
   #manual override to remove
-  - tools/orocos.rb:
-      branch: orogen_loaders 
-      url: https://github.com/goldhoorn/tools-orocosrb.git
-  - tools/syskit:
-      branch: process_manager
-      url: https://github.com/goldhoorn/tools-syskit.git
   - bundles/rock:
       url: https://github.com/goldhoorn/bundles-rock.git
       push_to: git@github.com:goldhoorn/bundles-rock.git
 
   #Begin fixing rock version
-  - orogen:
-      branch: orogen_loaders
-  #- tools/orocos.rb:
-  #    branch: orogen_loaders
-  #- tools/syskit:
-  #    branch: orogen_loaders
-  - gui/vizkit:
-      branch: orogen_loaders
-  - drivers/transformer:
-      branch: orogen_loaders
   - tools/orogen_metadata:
       commit: cea4ef21b97f08e88037f306db12e628e35b7362
   - gui/vizkit:
@@ -100,14 +84,12 @@ overrides:
       commit: 1a6943cc1ef8eeac9aa926e4d5c082994580c36c
   - base/templates/doc:
       commit: b33744d22d8dcd06a6270483f7b9d6fd14a0cf97
-  #- external/sisl:
-  #    url: file://$AUTOPROJ_SOURCE_DIR/archives/sisl-4.5.0.tar.gz
   - base/orogen/std:
       commit: b7d3b510baae30878078d11f8bd9a1c41022e229
-#  - tools/syskit:
-#      commit: adc435cbe8ac92ff221b6a9c811a6eb5f372c247
-#  - tools/orocos.rb:
-#      commit: c9db1723bba337dea46f10639bc199c79a79d491
+  - tools/syskit:
+      commit: e97ab7d0aa42e687525c2727612f93f2a5608551 
+  - tools/orocos.rb:
+      commit: f4a84f0677d419004b6481f330df2fece438243c 
   - tools/pocolog:
       commit: 5137d4cff87eb4a54dc31841e02dd8da62edd469
   - tools/logger:
@@ -115,7 +97,7 @@ overrides:
   - base/orogen/types:
       commit: a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
   - tools/roby:
-      commit: 5266caf5c3c55721b2e1973e1c082c1765a980a3
+      commit: d23f00e240accf7c412bb9fcd6e1e123574ed054 
   - tools/log_tools:
       commit: f86412e33774771c5c5b94fe69631cfdf68f57ff
   - drivers/aggregator:
@@ -136,28 +118,10 @@ overrides:
       commit: 3a46e13fef895ec80bf4f6b9b598d113b9897d59
   - tools/rubigen:
       commit: 7b3ccf69d2463a2741b18ef9fca90abef2116496
-  #- auv_avalon/orogen/avalon_back:
-  #    commit: f61715e47e39259b08f839e99d5431550faf37aa
-  #- auv_avalon/orogen/avalon_front:
-  #    commit: bf4dd51d54e2cbc9818b24fcfd74d538871c2d81
-  #- avalon/orogen/depth_map:
-  #    commit: aec30ac98403ebffc4f74ef2cb97689d050f51c0
-  #- avalon/arc-ocu:
-  #    commit: 0b554d641963398044d56e0fd981749fe5e9c070
-  #- simulation/orogen/avalon_simulation:
-  #    commit: 94bb9f0e6d4bf97c0ddbcfc49d023295da244ffd
-  #- bundles/avalon:
-  #    commit: 95083c3d464ed08063627bbfff6c9f659f964c51
-  #- auv_avalon/modemdriver_tritech:
-  #    commit: 9fed8747f1d97fa4df398f229d10bf27e578dbc9
-  #- auv_avalon/orogen/modemdriver_tritech:
-  #    commit: 27d597431f9e298a84f5a26200b981ab5fac923a
-  #- scripts:
-  #    commit: ed1f329c615bb2790fbed2d5a5e06ce6bd1db63b
   - typelib:
       commit: b05ff9d7dae8307c78bfe5bf528bf25f57c83f0c
   - utilrb:
-      commit: d773162364f8b5d40d7e54d9b9a7e8eebe72c160
+      commit: 044d1b0776f6d768b4853af97471525fb7abad6f 
   - orogen:
       commit: 310682ddf7a594f70cc25c799a67a4137a0bc358
   - rtt:
@@ -166,207 +130,3 @@ overrides:
       commit: 8a7d71ed5143d9a7376d9ee0e88a9efecdd52942
   - rtt_typelib:
       commit: 2ac33379c4aa3ba854974df47b6ed2a98a4776d8
-  #- drivers/orogen/xsens_imu:
-  #    commit: 6d55009f68d7a977ece809fa853eac9fa6288166
-  #- auv_avalon/orogen/battery_watcher:
-  #    commit: e15e3cbaf1a817192ad206e1f4abb0975de4d93e
-  #- drivers/orogen/sonar_tritech:
-  #    commit: 528800ee79fdd9d8df8f0e3ecd8d8c3f7624fa42
-  #- drivers/orogen/canbus:
-  #    commit: 05481b948d9af320a352be1137c60e84c8f95188
-  #- avalon/orogen/depth_reader:
-  #    commit: bc0199ac756775e85692db15368e83a0603fa420
-  #- avalon/orogen/avalonControl:
-  #    commit: a13c3b2c703bad21151d485c7a21500b60ab4289
-  #- avalon/orogen/rawControlCommandConverter:
-  #    commit: b990ea04bdc479a9efd82c661f3a8c6e96c3020d
-  #- drivers/orogen/fog_kvh:
-  #    commit: 5ca5bb7f8f197a517d778e7359b54594ca8e132b
-  #- slam/orogen/orientation_estimator:
-  #    commit: 80e32da1e631e4f8b5e431b3e457b948f6751e94
-  #- slam/orogen/auv_helper:
-  #    commit: 76d34f1f29d8c031adc665dcecabe249a77c2f00
-  #- avalon/orogen/sysmon:
-  #    commit: 61c4e6a8cbc73bcf198a268cf9937b296c5201d4
-  #- avalon/orogen/modemCanReader:
-  #    commit: 62932537ca6aff06ca9a3fa05b478a4e3bdb2441
-  #- auv_avalon/orogen/uw_particle_localization:
-  #    commit: c617e3e21d5ae491dd0ba6b6d8d8cdee0a9753c6
-  #- control/orogen/auv_rel_pos_controller:
-  #    commit: c87055481111fff99ce64c80ea6864a44ad74161
-  #- avalon/orogen/rear_sonar_distance_estimator:
-  #    commit: 5df54e00112eefd9a731f2ddf684dff566f20d50
-  #- drivers/orogen/taskmon:
-  #    commit: 0470899c986c624fb33fa8440145020db7f9a49c
-  #- auv_avalon/orogen/wall_servoing:
-  #    commit: 5e236a8787d8e858fa663a84cc355aa0d4cc3f56
-  #- auv_avalon/orogen/sonar_feature_estimator:
-  #    commit: d687e32aee6768428a3d2aa85525d8b8a87269fd
-  #- avalon/orogen/auv_waypoint_navigator:
-  #    commit: 179f54429e24b63e8830a60cbe7d91dd4ec3eda3
-  #- control/orogen/auv_control:
-  #    commit: c6aac2732018c8635184fc3d2c7afde07216adcf
-  #- image_processing/orogen/line_scanner:
-  #    commit: 64335b6b27d5e9688826fa90d3dc85c33806006c
-  #- image_processing/orogen/pipeline_inspection:
-  #    commit: 0dd69fd168371eda381d3d0c0140ca199ebbc260
-  #- image_processing/orogen/image_preprocessing:
-  #    commit: 8e24d5d75f7da2a98d17c86505b878687f36f2c6
-  #- auv_avalon/orogen/lights:
-  #    commit: c45fa29bc770a2a4c2cdb5978918945a9395cac1
-  #- auv_avalon/orogen/low_level_driver:
-  #    commit: f09a152f567b3f7f1ecd1ba5d643859386ec4308
-  #- drivers/orogen/camera_prosilica:
-  #    commit: f23f795bbb4a74899c02de1fe57572f23acbfe5f
-  #- drivers/orogen/video_streamer_vlc:
-  #    commit: 7f550579214ca27fd21fd3aa372be2c0f5db9c7f
-  #- drivers/orogen/dynamixel:
-  #    commit: 2ddd2a96e003157c322e3c811f171568571571f5
-  #- drivers/orogen/camera_unicap:
-  #    commit: 79637f7cd958f4fe3293ae842bcb421487761fb0
-  #- image_processing/orogen/frame_demultiplexer:
-  #    commit: dc3d32a43af0d00c48d9d82bd49a61182dbd4efd
-  #- image_processing/orogen/structured_light:
-  #    commit: 7c729fc36f2ef355192c2127c73924c0988f92d4
-  #- image_processing/orogen/offshore_pipeline_detector:
-  #    commit: fa71682baae8465e8874c360f62c981ff3cebdc8
-  #- auv_avalon/orogen/buoy:
-  #    commit: cfbf7409d171918c634ae0c7229e8cc84e8b60b2
-  #- auv_avalon/orogen/sonar_wall_hough:
-  #    commit: b330736dcfc327294dc6d73ebabd59f7e7a3a10c
-  #- drivers/orogen/gps:
-  #    commit: b35c7ffe9ec00a60200514e56c21b04cfcb99cee
-  #- drivers/iodrivers_base:
-  #    commit: 42c76305cd67c2e8abda1ad085dcf1da1cb39bb0
-  #- drivers/controldev:
-  #    commit: 80dbd89e1c7fa2992bf7660a48bf28b8316674ab
-  #- simulation/mars/interfaces:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/utils:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars-plugins/avalon-plugin:
-  #    commit: 8e081a70f4b95466d7d7993f66d340cd9a292566
-  #- simulation/orogen/mars_core:
-  #    commit: 516fb5a79396b2419ca7b739e2e06f411f0630fe
-  #- drivers/orogen/controldev:
-  #    commit: a8c72ea7e15fb2749bb09b75fbbdeef137cafcc8
-  #- drivers/orogen/task_scheduler:
-  #    commit: d5c2d8c8a6a796907c3098e53a10572b5151b1f2
-  #- bundles/rock.dfki:
-  #    commit: f0f905404aeba4a4ac56b433d45758bd362ce333
-  #- bundles/auv:
-  #    commit: 4ea31ffe4cb475c159f075efa6230cb674dad6fc
-  #- bundles/sauce:
-  #    commit: f5c574f5b163684d0950cb440317215ec516db14
-  #- drivers/canbus:
-  #    commit: 67b0d483eb7ed5265d245f1bac8108af4385bc33
-  #- drivers/xsens_imu:
-  #    commit: 8e2c119217a5a61de7ad35f330cc6f29f3de32d8
-  #- drivers/sonar_tritech:
-  #    commit: 37060cea8374116e682d9b7d39983af81495a099
-  #- drivers/base_schilling:
-  #    commit: 1edc3de548bbff86f5d4df600275ae4e4b49e118
-  #- drivers/orogen/hbridge:
-  #    commit: 5ec7e8863d747b7d039e4953c874e777f125a7bf
-  #- drivers/fog_kvh:
-  #    commit: 78bcd6478225cdbfa87385a0e859a2697edaf768
-  #- slam/quater_ikf:
-  #    commit: 28c677e18e2afb1d6bebb448b78c8b76a756cbda
-  #- slam/quater_ukf:
-  #    commit: 7438720e486ae377f3390b98ce41f8a4fe991fa6
-  #- avalon/communication:
-  #    commit: f737c988c7e35781942b93d17bf25d6aebd56ef1
-  #- auv_avalon/uw_localization:
-  #    commit: cb4f26b5d21ef8da76c85cb0f7156513560782a6
-  #- dagon/uwv_dynamic_model:
-  #    commit: 7914340a4b99db610bd0272c5c2bfcd768d755cd
-  #- auv_avalon/visual_detectors:
-  #    commit: e0118a3429e0580c7fc1bad9856e0cc9c711849e
-  #- control/motor_controller:
-  #    commit: f7b57813ffebc772039cf7cc5de81803419cd3e6
-  #- auv_avalon/sonar_detectors:
-  #    commit: 07415a4f5d0cab2e3a3f9f1828fb5211727a3f49
-  #- auv_avalon/dsp_acoustics:
-  #    commit: 379563465ed2fc0ed0446528caff0b32849881ee
-  #- image_processing/cv_detectors:
-  #    commit: 447c1dd018d9f4428e09d4b5a06392e3e1bd3558
-  #- image_processing/opensfm:
-  #    commit: 1db3c4fd65c25413ef39654a317de5a047db17ae
-  #- image_processing/pipeline_inspection:
-  #    commit: f316b89ffc9ed7a29775dbd91674b8cbd26c378e
-  #- auv_avalon/low_level_driver:
-  #    commit: 7d1df96521055024f1b3c768bcab8cad44df9337
-  #- drivers/orogen/camera_base:
-  #    commit: 164fcb3537e05fdf50ab0b7a7d474c5dadb10643
-  #- drivers/camera_prosilica:
-  #    commit: e5c48b1948a70aa1e824324cc41c46ea480d02c4
-  #- drivers/video_streamer_vlc:
-  #    commit: 8043952f143ba6f8c5859abcf48540aebabcadf6
-  #- drivers/video_capture_vlc:
-  #    commit: 68de9644e42ac7995561877b52a71003b513278a
-  #- drivers/dynamixel:
-  #    commit: a4a2342f30778bea32f632495ec3e142003c71a8
-  #- base/orogen/interfaces:
-  #    commit: a4a730de7e070a6167d132fdd7d2a2f87338c216
-  #- drivers/camera_unicap:
-  #    commit: b42343dc6ac77921af9f1ba2e7e81f9f5359b51b
-  #- image_processing/structured_light:
-  #    commit: e467e67b9e1aaa9c250eb0f9bb3749c043612860
-  #- image_processing/offshore_pipeline_detector:
-  #    commit: 717bd336a3cc30ad87c91e45eedb0c5d966f29a7
-  #- auv_avalon/sonar_wall_hough:
-  #    commit: 5d4637017d7a5e642cdafd11d04546dd7923df44
-  #- drivers/mb500:
-  #    commit: c434706054511c6ecfc6dcf501b4e8cca42ef4e2
-  #- simulation/mars/scripts/cmake:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/data_broker:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/lib_manager:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- external/yaml-cpp:
-  #    url: file://$AUTOPROJ_SOURCE_DIR/archives/yaml-cpp-0.3.0.tar.gz
-  #- simulation/mars-plugins/marsusim:
-  #    commit: 4f7be8c6701557217f1a7f550308f13169acf5d2
-  #- drivers/actuator_dispatcher:
-  #    commit: d1555f446500edb4b6cfa2f9764b70d48862c203
-  #- simulation/mars/app:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/gui:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/graphics:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/sim:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/scene_loader:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- drivers/hbridge:
-  #    commit: fdf103308b4bad6b5ab925a8accb5c6360494c9b
-  #- control/joint_dispatcher:
-  #    commit: b9352ddb6c683e24af9e720893fb71426aad17a1
-  #- auv_avalon/machine_learning:
-  #    commit: 25d5c3d159ade9ecd753431b8d0f50d32856f5d6
-  #- avalon/nlopt:
-  #    url: file://$AUTOPROJ_SOURCE_DIR/archives/nlopt-2.4.1.tar.gz
-  #- drivers/camera_interface:
-  #    commit: b520f31047aa0b1eb74fcb29ee4fb3461ec6eede
-  #- external/unicap:
-  #    commit: 24db7b1a035d32240c25fce46f321985abe2a15c
-  #- simulation/osgOcean:
-  #    commit: e084b9e5cea6ee9913124d440b2c06e91bac1930
-  #- simulation/mars/common/gui/main_gui:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/plugins/connexion_plugin:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/gui/data_broker_gui:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/gui/cfg_manager_gui:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/gui/lib_manager_gui:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- simulation/mars/common/cfg_manager:
-  #    commit: b82e600d1511a9dc1e395e29e21dce8982cb2a6e
-  #- external/ode:
-  #    url: file://$AUTOPROJ_SOURCE_DIR/archives/ode-0.12.tar.bz2
-  #- external/minizip:
-  #    url: file://$AUTOPROJ_SOURCE_DIR/archives/unzip11.zip
