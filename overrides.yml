@@ -23,3 +23,5 @@ overrides:
       branch: avalon
   - avalon/arc-ocu:
       branch: version2
+  - drivers/orogen/hbridge:
+      branch: writer_is_a_reader
