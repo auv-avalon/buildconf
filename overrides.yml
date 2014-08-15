@@ -44,3 +44,5 @@ overrides:
       branch: orogen_loaders
   - drivers/transformer:
       branch: orogen_loaders
+  - drivers/orogen/hbridge:
+      branch: writer_is_a_reader
