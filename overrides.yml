@@ -42,10 +42,6 @@ overrides:
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
 
-  #Avalon pose estimator
-  - slam/orogen/pose_estimation:
-      branch: avalon
-
   #manual override to remove
   - bundles/rock:
       url: https://github.com/goldhoorn/bundles-rock.git
