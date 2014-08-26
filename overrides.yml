@@ -42,6 +42,10 @@ overrides:
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
 
+  #New IKF Estimator
+  - slam/orogen/orientation_estimator:
+      branch: rewrite_ikf_estimator 
+
   #manual override to remove
   - bundles/rock:
       url: https://github.com/goldhoorn/bundles-rock.git
