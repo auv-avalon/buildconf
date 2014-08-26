@@ -105,7 +105,7 @@ overrides:
   - drivers/aggregator:
       commit: dc8e2fb1671b3a8d6e37ce6cb276503dd8d94549
   - drivers/transformer:
-      commit: f82a18db51ddf35b14d09e59d88be5cb7624179e
+      commit: 7096b28ae4297c3fa08c32ffd911a96977b66368
   - drivers/orogen/aggregator:
       commit: 7875bd8120579833edfc05f0f4d90c35789fede4
   - drivers/orogen/transformer:
