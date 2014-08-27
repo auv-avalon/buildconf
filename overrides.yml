@@ -50,6 +50,9 @@ overrides:
   - bundles/rock:
       url: https://github.com/goldhoorn/bundles-rock.git
       push_to: git@github.com:goldhoorn/bundles-rock.git
+  - tools/roby:
+      url: https://github.com/goldhoorn/tools-roby.git
+      push_to: git@github.com:goldhoorn/tools-roby.git
 
   #Begin fixing rock version
   - tools/orogen_metadata:
@@ -98,8 +101,6 @@ overrides:
       commit: e487f59e375284739a8df32b8b90fc69289f1501
   - base/orogen/types:
       commit: a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
-  - tools/roby:
-      commit: d23f00e240accf7c412bb9fcd6e1e123574ed054 
   - tools/log_tools:
       commit: f86412e33774771c5c5b94fe69631cfdf68f57ff
   - drivers/aggregator:
