@@ -43,3 +43,6 @@ overrides:
       branch: orogen_loaders
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
+  - tools/roby:
+      url: https://github.com/goldhoorn/tools-roby.git
+      push_to: git@github.com:goldhoorn/tools-roby.git
