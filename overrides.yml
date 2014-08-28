@@ -78,7 +78,7 @@ overrides:
   - base/numeric:
       commit: a2c80ed65b1ac90aafa57c2213f7c9a4bb40453a
   - base/scripts:
-      commit: 9c9a3d25ca4804162fde803622ff4d8875a4c3dc
+      commit: 8b9207785c416731a706d38b7274e6236bc686a1 
   - base/templates/cmake_lib:
       commit: 164c76bee90cb667e9b814aae1f94becf9d15091
   - base/templates/cmake_vizkit_widget:
