@@ -57,10 +57,10 @@ overrides:
   #Begin fixing rock version
   - tools/orogen_metadata:
       commit: cea4ef21b97f08e88037f306db12e628e35b7362
-  - gui/vizkit:
-      commit: 27e998bf0770dafdc06cb799bc6b9c4e649cf0ad
-  - gui/vizkit3d:
-      commit: 44f95f854f496155ce677954c6ad8eb156bbca4b
+#  - gui/vizkit:
+#      commit: 27e998bf0770dafdc06cb799bc6b9c4e649cf0ad
+#  - gui/vizkit3d:
+#      commit: 44f95f854f496155ce677954c6ad8eb156bbca4b
   - tools/telemetry:
       commit: 252505725f00f2efcbe7bae5e9d9a832939b6a3d
   #- bundles/rock:
@@ -91,8 +91,8 @@ overrides:
       commit: b33744d22d8dcd06a6270483f7b9d6fd14a0cf97
   - base/orogen/std:
       commit: b7d3b510baae30878078d11f8bd9a1c41022e229
-  - tools/syskit:
-      commit: e97ab7d0aa42e687525c2727612f93f2a5608551 
+#  - tools/syskit:
+#      commit: e97ab7d0aa42e687525c2727612f93f2a5608551 
   - tools/orocos.rb:
       commit: f4a84f0677d419004b6481f330df2fece438243c 
   - tools/pocolog:
