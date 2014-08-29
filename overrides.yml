@@ -21,6 +21,8 @@ overrides:
       branch: avalon
   - dagon/uwv_dynamic_model:
       branch: avalon
+  - slam/orogen/orientation_estimator:
+      branch: rewrite_ikf_estimator
   - avalon/arc-ocu:
       branch: version2
   - orogen:
