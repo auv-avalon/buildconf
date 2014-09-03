@@ -37,6 +37,8 @@ overrides:
       branch: orogen_loaders
   - bundles/rock:
       branch: orogen_loaders
+      url: git://github.com/goldhoorn/bundles-rock.git
+      push_to: git@github.com:/goldhoorn/bundles-rock.git
   - drivers/transformer:
       branch: orogen_loaders
   - drivers/orogen/hbridge:
