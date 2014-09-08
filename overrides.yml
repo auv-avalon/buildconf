@@ -47,75 +47,74 @@ overrides:
       url: https://github.com/goldhoorn/tools-roby.git
       push_to: git@github.com:goldhoorn/tools-roby.git
 
-######## Pinning ##################
-overrides:
-- tools/telemetry:
-    commit: 252505725f00f2efcbe7bae5e9d9a832939b6a3d
-- tools/pocolog_cpp:
-    commit: 66c02a8ddfca0c7bb75982013839628903d0dcfe
-- tools/service_discovery:
-    commit: 516f04ae8dbd95b54f1594d36871a62792256ca5
-- base/types:
-    commit: f06e7f335aa39030af3b8a133e27ba50c7ff9696
-- base/cmake:
-    commit: e794789c760e9b91f1fa5457d8221588666d882d
-- base/templates/ruby_lib:
-    commit: 44124bd7920b625cb1ce0bb99f7faada38a89be8
-- base/numeric:
-    commit: a2c80ed65b1ac90aafa57c2213f7c9a4bb40453a
-- base/scripts:
-    commit: 8b9207785c416731a706d38b7274e6236bc686a1
-- base/templates/cmake_lib:
-    commit: 164c76bee90cb667e9b814aae1f94becf9d15091
-- base/templates/cmake_vizkit_widget:
-    commit: 96acba905379c4b0f4af49bee6a2f03584f96291
-- base/templates/vizkit:
-    commit: 344cae53eece99f392786aeb7ee62564adc30750
-- base/templates/bundle:
-    commit: 1a6943cc1ef8eeac9aa926e4d5c082994580c36c
-- base/templates/doc:
-    commit: b33744d22d8dcd06a6270483f7b9d6fd14a0cf97
-- base/orogen/std:
-    commit: b7d3b510baae30878078d11f8bd9a1c41022e229
-- tools/orocos.rb:
-    commit: f4a84f0677d419004b6481f330df2fece438243c
-- tools/pocolog:
-    commit: 5137d4cff87eb4a54dc31841e02dd8da62edd469
-- tools/logger:
-    commit: e487f59e375284739a8df32b8b90fc69289f1501
-- base/orogen/types:
-    commit: 1079cf4e70b92cdaf4362018db30a44b258cc0c2 #a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
-- tools/log_tools:
-    commit: f86412e33774771c5c5b94fe69631cfdf68f57ff
-- drivers/aggregator:
-    commit: dc8e2fb1671b3a8d6e37ce6cb276503dd8d94549
-- drivers/transformer:
-    commit: 7096b28ae4297c3fa08c32ffd911a96977b66368
-- drivers/orogen/aggregator:
-    commit: 7875bd8120579833edfc05f0f4d90c35789fede4
-- drivers/orogen/transformer:
-    commit: 645421ee6a341e03d43d2ccc6c6bca6c98fc8277
-- image_processing/jpeg_conversion:
-    commit: e353550cb78e54a7fbf2602d893f45411c981ce1
-- image_processing/frame_helper:
-    commit: 8af1020451a0b7565fb020271cf80a8af0c94841
-- tools/orogen_metadata:
-    commit: cea4ef21b97f08e88037f306db12e628e35b7362
-- base/console_bridge:
-    commit: 3a46e13fef895ec80bf4f6b9b598d113b9897d59
-- tools/rubigen:
-    commit: 7b3ccf69d2463a2741b18ef9fca90abef2116496
-- scripts:
-    commit: 84bfc9d74593e96e376a1f350e2bbb8ebf851ccf
-- utilrb:
-    commit: 044d1b0776f6d768b4853af97471525fb7abad6f
-- typelib:
-    commit: 75b22b66c04d66f918461c47bd866f5f7f985a90
-- orogen:
-    commit: 310682ddf7a594f70cc25c799a67a4137a0bc358
-- rtt:
-    commit: 52359a06e3ec024d7c052654ad926759cba95ec7
-- tools/metaruby:
-    commit: a6c51effa6d0afbdcb36a45d10656c1d8e8416f3
-- rtt_typelib:
-    commit: 2ac33379c4aa3ba854974df47b6ed2a98a4776d8
+  ######## Pinning ##################
+  - tools/telemetry:
+      commit: 252505725f00f2efcbe7bae5e9d9a832939b6a3d
+  - tools/pocolog_cpp:
+      commit: 66c02a8ddfca0c7bb75982013839628903d0dcfe
+  - tools/service_discovery:
+      commit: 516f04ae8dbd95b54f1594d36871a62792256ca5
+  - base/types:
+      commit: f06e7f335aa39030af3b8a133e27ba50c7ff9696
+  - base/cmake:
+      commit: e794789c760e9b91f1fa5457d8221588666d882d
+  - base/templates/ruby_lib:
+      commit: 44124bd7920b625cb1ce0bb99f7faada38a89be8
+  - base/numeric:
+      commit: a2c80ed65b1ac90aafa57c2213f7c9a4bb40453a
+  - base/scripts:
+      commit: 8b9207785c416731a706d38b7274e6236bc686a1
+  - base/templates/cmake_lib:
+      commit: 164c76bee90cb667e9b814aae1f94becf9d15091
+  - base/templates/cmake_vizkit_widget:
+      commit: 96acba905379c4b0f4af49bee6a2f03584f96291
+  - base/templates/vizkit:
+      commit: 344cae53eece99f392786aeb7ee62564adc30750
+  - base/templates/bundle:
+      commit: 1a6943cc1ef8eeac9aa926e4d5c082994580c36c
+  - base/templates/doc:
+      commit: b33744d22d8dcd06a6270483f7b9d6fd14a0cf97
+  - base/orogen/std:
+      commit: b7d3b510baae30878078d11f8bd9a1c41022e229
+  - tools/orocos.rb:
+      commit: f4a84f0677d419004b6481f330df2fece438243c
+  - tools/pocolog:
+      commit: 5137d4cff87eb4a54dc31841e02dd8da62edd469
+  - tools/logger:
+      commit: e487f59e375284739a8df32b8b90fc69289f1501
+  - base/orogen/types:
+      commit: 1079cf4e70b92cdaf4362018db30a44b258cc0c2 #a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
+  - tools/log_tools:
+      commit: f86412e33774771c5c5b94fe69631cfdf68f57ff
+  - drivers/aggregator:
+      commit: dc8e2fb1671b3a8d6e37ce6cb276503dd8d94549
+  - drivers/transformer:
+      commit: 7096b28ae4297c3fa08c32ffd911a96977b66368
+  - drivers/orogen/aggregator:
+      commit: 7875bd8120579833edfc05f0f4d90c35789fede4
+  - drivers/orogen/transformer:
+      commit: 645421ee6a341e03d43d2ccc6c6bca6c98fc8277
+  - image_processing/jpeg_conversion:
+      commit: e353550cb78e54a7fbf2602d893f45411c981ce1
+  - image_processing/frame_helper:
+      commit: 8af1020451a0b7565fb020271cf80a8af0c94841
+  - tools/orogen_metadata:
+      commit: cea4ef21b97f08e88037f306db12e628e35b7362
+  - base/console_bridge:
+      commit: 3a46e13fef895ec80bf4f6b9b598d113b9897d59
+  - tools/rubigen:
+      commit: 7b3ccf69d2463a2741b18ef9fca90abef2116496
+  - scripts:
+      commit: 84bfc9d74593e96e376a1f350e2bbb8ebf851ccf
+  - utilrb:
+      commit: 044d1b0776f6d768b4853af97471525fb7abad6f
+  - typelib:
+      commit: 75b22b66c04d66f918461c47bd866f5f7f985a90
+  - orogen:
+      commit: 310682ddf7a594f70cc25c799a67a4137a0bc358
+  - rtt:
+      commit: 52359a06e3ec024d7c052654ad926759cba95ec7
+  - tools/metaruby:
+      commit: a6c51effa6d0afbdcb36a45d10656c1d8e8416f3
+  - rtt_typelib:
+      commit: 2ac33379c4aa3ba854974df47b6ed2a98a4776d8
