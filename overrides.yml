@@ -48,7 +48,6 @@ overrides:
       push_to: git@github.com:goldhoorn/tools-roby.git
 
 ######## Pinning ##################
----
 overrides:
 - tools/telemetry:
     commit: 252505725f00f2efcbe7bae5e9d9a832939b6a3d
