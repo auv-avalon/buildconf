@@ -21,6 +21,7 @@ layout:
   - bundles/avalon
   - auv_avalon/modemdriver_tritech
   - auv_avalon/orogen/modemdriver_tritech
+  - auv_avalon/arc_driver
   - scripts
 
 exclude_packages:
