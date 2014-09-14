@@ -4,10 +4,10 @@
 #   the DFKI internal packagesets published on spacegit.dfki.uni-bremen.de
 
 package_sets:
-  - gitorious: rock-toolchain/package_set
+  - github: rock-core/package_set
+  - github: rock-core/rock-package_set
   - github: auv-avalon/package_set
   - spacegit: avalon/package_set
-  - spacegit: cuslam/package_set
   - spacegit: compilerspeedup/package_set
     branch: icecc
 
