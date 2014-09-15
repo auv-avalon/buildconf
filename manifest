@@ -1,6 +1,6 @@
 package_sets:
   - spacegit: avalon/package_set
-  - spacegit: dagon/package_set
+#  - spacegit: dagon/package_set
   - github: auv-avalon/package_set
   - github: rock-simulation/package_set
   - github: rock-core/rock-package_set
@@ -9,7 +9,7 @@ package_sets:
 
 layout:
   - rock.core
-  - dagon/orogen/dagon
+#  - dagon/orogen/dagon
 #  - rock.toolchain
 #  - slam/envire
   - auv_avalon/orogen/avalon_back
