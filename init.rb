@@ -53,6 +53,12 @@ Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'ht
 #Autoproj.change_option('SPACEGIT_ROOT', 'git://192.168.128.50')
 #Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'git://192.168.128.50')
 
+Autoproj.change_option('GITORIOUS_ROOT', 'git://192.168.128.10')
+Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
+Autoproj.change_option('SPACEGIT_ROOT', 'git://192.168.128.10')
+Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
+Autoproj.change_option('GITHUB_ROOT', 'git://192.168.128.10')
+Autoproj.change_option('GITHUB_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 # Autoproj.change_option('ROCK_FLAVOR', 'master')
