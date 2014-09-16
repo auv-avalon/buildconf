@@ -51,11 +51,11 @@ Autoproj.gitorious_server_configuration('SPACEGIT', 'git.hb.dfki.de',:fallback_t
 Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'https://github.com')
 
 Autoproj.change_option('GITORIOUS_ROOT', 'git://192.168.128.10')
-Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
+Autoproj.change_option('GITORIOUS_PUSH_ROOT', 'git://192.168.128.10')
 Autoproj.change_option('SPACEGIT_ROOT', 'git://192.168.128.10')
-Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
+Autoproj.change_option('SPACEGIT_PUSH_ROOT', 'git://192.168.128.10')
 Autoproj.change_option('GITHUB_ROOT', 'git://192.168.128.10')
-Autoproj.change_option('GITHUB_PUSH_ROOT', 'auv@192.168.128.10:gitserver')
+Autoproj.change_option('GITHUB_PUSH_ROOT', 'git://192.168.128.10')
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
 #Autoproj.change_option('ROCK_FLAVOR', 'next') #THIS SHOULD NOT SET IN THIS FILE, so each user can select where he would like to work
