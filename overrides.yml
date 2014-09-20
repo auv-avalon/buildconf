@@ -44,6 +44,9 @@ overrides:
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
 
+  - slam/mtk:
+      url: git@192.168.128.10/external/cpp.git
+
   #New IKF Estimator
   - slam/orogen/orientation_estimator:
       branch: rewrite_ikf_estimator 
