@@ -37,8 +37,8 @@ overrides:
       branch: orogen_loaders
   - bundles/rock:
       branch: orogen_loaders
-      url: git://github.com/goldhoorn/bundles-rock.git
-      push_to: git@github.com:/goldhoorn/bundles-rock.git
+#      url: git://github.com/goldhoorn/bundles-rock.git
+#      push_to: git@github.com:/goldhoorn/bundles-rock.git
   - drivers/transformer:
       branch: orogen_loaders
   - drivers/orogen/hbridge:
@@ -48,13 +48,15 @@ overrides:
   - slam/orogen/orientation_estimator:
       branch: rewrite_ikf_estimator 
 
+    # overrides on sauc-e
+
   #manual override to remove
-  - bundles/rock:
-      url: https://github.com/goldhoorn/bundles-rock.git
-      push_to: git@github.com:goldhoorn/bundles-rock.git
-  - tools/roby:
-      url: https://github.com/goldhoorn/tools-roby.git
-      push_to: git@github.com:goldhoorn/tools-roby.git
+  #  - bundles/rock:
+  #    url: https://github.com/goldhoorn/bundles-rock.git
+  #    push_to: git@github.com:goldhoorn/bundles-rock.git
+  #- tools/roby:
+  #    url: https://github.com/goldhoorn/tools-roby.git
+  #    push_to: git@github.com:goldhoorn/tools-roby.git
 
   #Begin fixing rock version
   - tools/orogen_metadata:
