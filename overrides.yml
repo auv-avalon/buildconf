@@ -104,8 +104,8 @@ overrides:
       commit: f4a84f0677d419004b6481f330df2fece438243c 
   - tools/pocolog:
       commit: 5137d4cff87eb4a54dc31841e02dd8da62edd469
-  - tools/logger:
-      commit: e487f59e375284739a8df32b8b90fc69289f1501
+#  - tools/logger:
+#      commit: e487f59e375284739a8df32b8b90fc69289f1501
   - base/orogen/types:
       commit: a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
   - tools/log_tools:
