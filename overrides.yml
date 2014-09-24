@@ -45,7 +45,8 @@ overrides:
       branch: writer_is_a_reader
 
   - slam/mtk:
-      url: git@192.168.128.10/external/cpp.git
+      url: git://192.168.128.10/external-libraries/mtk.git
+      type: git
 
   #New IKF Estimator
   - slam/orogen/orientation_estimator:
