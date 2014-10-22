@@ -29,38 +29,31 @@ overrides:
       branch: orogen_loaders
   - tools/orocos.rb:
       branch: orogen_loaders
-  - tools/syskit:
-      branch: orogen_loaders
   - base/scripts:
       branch: orogen_loaders
   - gui/vizkit:
       branch: orogen_loaders
-  - bundles/rock:
-      branch: orogen_loaders
-#      url: git://github.com/goldhoorn/bundles-rock.git
-#      push_to: git@github.com:/goldhoorn/bundles-rock.git
   - drivers/transformer:
       branch: orogen_loaders
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
-
-  - slam/mtk:
-      url: git://192.168.128.10/external-libraries/mtk.git
-      type: git
-
   #New IKF Estimator
   - slam/orogen/orientation_estimator:
       branch: rewrite_ikf_estimator 
 
-    # overrides on sauc-e
 
   #manual override to remove
-  #  - bundles/rock:
-  #    url: https://github.com/goldhoorn/bundles-rock.git
-  #    push_to: git@github.com:goldhoorn/bundles-rock.git
-  #- tools/roby:
-  #    url: https://github.com/goldhoorn/tools-roby.git
-  #    push_to: git@github.com:goldhoorn/tools-roby.git
+    - bundles/rock:
+      url: https://github.com/auv-avalon/bundles-rock.git 
+      push_to: git@github.com:auv-avalon/bundles-rock.git 
+      branch: orogen_loaders
+  - tools/roby:
+      url: https://github.com/auv-avalon/tools-roby.git
+      push_to: git@github.com:auv-avalon/tools-roby.git 
+  - tools/syskit:
+      url: https://github.com/auv-avalon/tools-syskit.git
+      push_to: git@github.com:auv-avalon/tools-syskit.git 
+      branch: orogen_loaders
 
   #Begin fixing rock version
   - tools/orogen_metadata:
