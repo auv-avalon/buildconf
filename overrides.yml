@@ -34,8 +34,8 @@ overrides:
   - tools/orocos.rb:
       #      url: git@github.com:goldhoorn/tools-orocosrb.git
       branch: orogen_loaders
-  - bundles/rock.dfki:
-      url: git@spacegit.dfki.uni-bremen.de:~cclausen/rock-dfki/clausens-rock-dfki-bundle.git 
+#  - bundles/rock.dfki:
+#      url: git@spacegit.dfki.uni-bremen.de:~cclausen/rock-dfki/clausens-rock-dfki-bundle.git 
   - tools/syskit:
       branch: orogen_loaders
   - base/scripts:
