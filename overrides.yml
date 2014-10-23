@@ -39,11 +39,11 @@ overrides:
       branch: writer_is_a_reader
   #New IKF Estimator
   - slam/orogen/orientation_estimator:
-      branch: rewrite_ikf_estimator 
+      branch: rewrite_ikf_estimator
 
 
   #manual override to remove
-    - bundles/rock:
+  - bundles/rock:
       url: https://github.com/auv-avalon/bundles-rock.git 
       push_to: git@github.com:auv-avalon/bundles-rock.git 
       branch: orogen_loaders
