@@ -40,7 +40,8 @@ overrides:
   #New IKF Estimator
   - slam/orogen/orientation_estimator:
       branch: rewrite_ikf_estimator
-
+  - control/orogen/auv_control:
+      branch: sauce-cleanup
 
   #manual override to remove
   - bundles/rock:
