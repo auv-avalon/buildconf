@@ -42,7 +42,8 @@ overrides:
       branch: rewrite_ikf_estimator
   - control/orogen/auv_control:
       branch: sauce-cleanup
-
+  - image_processing/opensfm:
+      commit: 4118cbca505f1d5e244047f87570c5f6004137b0
   #manual override to remove
   - bundles/rock:
       url: https://github.com/auv-avalon/bundles-rock.git 
