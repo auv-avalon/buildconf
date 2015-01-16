@@ -25,16 +25,16 @@ overrides:
       branch: avalon
   - avalon/arc-ocu:
       branch: version2
-  - orogen:
-      branch: orogen_loaders
-  - tools/orocos.rb:
-      branch: orogen_loaders
-  - base/scripts:
-      branch: orogen_loaders
-  - gui/vizkit:
-      branch: orogen_loaders
-  - drivers/transformer:
-      branch: orogen_loaders
+#  - orogen:
+#      branch: orogen_loaders
+#  - tools/orocos.rb:
+#      branch: orogen_loaders
+#  - base/scripts:
+#      branch: orogen_loaders
+#  - gui/vizkit:
+#      branch: orogen_loaders
+#  - drivers/transformer:
+#      branch: orogen_loaders
   - drivers/orogen/hbridge:
       branch: writer_is_a_reader
   #New IKF Estimator
@@ -58,12 +58,12 @@ overrides:
       branch: orogen_loaders
 
   #Otherwise orogen_loaders it not to master compatible anymore
-  - base/types:
-      commit: f06e7f335aa39030af3b8a133e27ba50c7ff9696
-  - base/orogen/types:
-      commit: a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
-  - typelib:
-      commit: b05ff9d7dae8307c78bfe5bf528bf25f57c83f0c
+#  - base/types:
+#      commit: f06e7f335aa39030af3b8a133e27ba50c7ff9696
+#  - base/orogen/types:
+#      commit: a5feea3cd14db30acc869c0b0a2c7cc4caf761d7
+#  - typelib:
+#      commit: b05ff9d7dae8307c78bfe5bf528bf25f57c83f0c
 
 
   #Begin fixing rock version
