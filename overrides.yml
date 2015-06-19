@@ -43,7 +43,8 @@ overrides:
   - control/orogen/auv_control:
       branch: sauce-cleanup
   - image_processing/opensfm:
-      commit: 4118cbca505f1d5e244047f87570c5f6004137b0
+      #      commit: 4118cbca505f1d5e244047f87570c5f6004137b0
+      commit: 989686bd10004ac10dd84e304663e47d778ddfca
   #manual override to remove
   - bundles/rock:
       url: https://github.com/auv-avalon/bundles-rock.git 

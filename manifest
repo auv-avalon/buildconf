@@ -4,6 +4,7 @@ package_sets:
   - github: auv-avalon/package_set
   - github: rock-simulation/package_set
   - github: rock-core/rock-package_set
+  - github: rock-tutorials/package_set
   - spacegit: compilerspeedup/package_set
 
 layout:
@@ -11,6 +12,7 @@ layout:
 #  - dagon/orogen/dagon
 #  - rock.toolchain
 #  - slam/envire
+  - base/admin_scripts
   - auv_avalon/orogen/avalon_back
   - auv_avalon/orogen/avalon_front
   - avalon/orogen/depth_map

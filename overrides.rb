@@ -11,6 +11,7 @@ end
 Autoproj.post_import do |pkg|
     if pkg.kind_of?(Autobuild::CMake)
         pkg.define "CMAKE_EXPORT_COMPILE_COMMANDS", "ON"
+      #  pkg.define "ROCK_USE_CXX11", "TRUE"
     end
 end
 
