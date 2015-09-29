@@ -1,5 +1,6 @@
 package_sets:
   - spacegit: avalon/package_set
+  - spacegit: rock-dfki/package_set
 #  - spacegit: dagon/package_set
   - github: auv-avalon/package_set
   - github: rock-simulation/package_set
@@ -24,5 +25,9 @@ layout:
   - auv_avalon/orogen/modemdriver_tritech
   - auv_avalon/arc_driver
   - scripts
-
+  - knowledge_reasoning/owlapi 
 exclude_packages:
+
+ignored_packages:
+  - knowledge_reasoning/factpp
+  - gecode

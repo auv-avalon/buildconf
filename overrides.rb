@@ -2,18 +2,18 @@
 # soures have beenloaded.
 
 # MQ does not build with boost version greater 1.42
-if package_selected?('rtt')   
-    package('rtt').define "PLUGINS_ENABLE_SCRIPTING", "OFF"
-    package('rtt').define "ENABLE_MQ", "ON"
-end
+#if package_selected?('rtt')   
+#    package('rtt').define "PLUGINS_ENABLE_SCRIPTING", "OFF"
+#    package('rtt').define "ENABLE_MQ", "ON"
+#end
 
 #Test setup for https://rock.opendfki.de/ticket/384
-Autoproj.post_import do |pkg|
-    if pkg.kind_of?(Autobuild::CMake)
-        pkg.define "CMAKE_EXPORT_COMPILE_COMMANDS", "ON"
-      #  pkg.define "ROCK_USE_CXX11", "TRUE"
-    end
-end
+#Autoproj.post_import do |pkg|
+#    if pkg.kind_of?(Autobuild::CMake)
+#        pkg.define "CMAKE_EXPORT_COMPILE_COMMANDS", "ON"
+#      #  pkg.define "ROCK_USE_CXX11", "TRUE"
+#    end
+#end
 
 #Not really currently supported by Alex 11.07.2013
 #setup_package 'gui/rock_widget_collection' do |pkg|
@@ -27,9 +27,9 @@ end
 #    pkg.define "BUILD_EXAMPLES", "OFF"
 #end
 
-setup_package('slam/envire') do |pkg|
-    pkg.parallel_build_level = 1
-end
+#setup_package('slam/envire') do |pkg|
+#    pkg.parallel_build_level = 1
+#end
 
 
 #if Autoproj.user_config('ROCK_FLAVOR') == 'next'
@@ -73,11 +73,11 @@ end
 #end
 #remove_from_default 'external/sisl'
 
-if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
-    metapackage('rock').weak_dependencies = true
-    metapackage('rock.toolchain').weak_dependencies = true
-    metapackage('rock.base').weak_dependencies = true
-end
+#if Autoproj::Metapackage.method_defined?(:weak_dependencies?)
+#    metapackage('rock').weak_dependencies = true
+#    metapackage('rock.toolchain').weak_dependencies = true
+#    metapackage('rock.base').weak_dependencies = true
+#end
 
 
 #if not Socket.gethostname.include?("build")

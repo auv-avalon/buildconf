@@ -39,7 +39,6 @@ ignore(/\.sw?$/)
 ignore(/~$/)
 
 require "autoproj/gitorious"
-
 #Setting default flavor
 #if !Autoproj.has_config_key?('ROCK_FLAVOR')
 #       STDOUT.puts "### Setting Default rock-flavor for Avalon to next, if you are sure abort bootstrap cancel after this step and edit config.yml by hand ###" #was added to keep the botstrap as simple as possible for the students
@@ -58,6 +57,7 @@ Autoproj.gitorious_server_configuration('GITHUB', 'github.com', :http_url => 'ht
 #Autoproj.change_option('GITHUB_PUSH_ROOT', 'git://192.168.128.10')
 
 Autoproj.env_inherit 'CMAKE_PREFIX_PATH'
+#Autoproj.env_inherit 'PATH'
 #Autoproj.change_option('ROCK_FLAVOR', 'next') #THIS SHOULD NOT SET IN THIS FILE, so each user can select where he would like to work
 
 Autobuild::Orogen.transports << "mqueue"
@@ -66,5 +66,5 @@ Autobuild::Orogen.extended_states = true
 ##We are using icecc
 #if ENV['PATH'].include?("icecc")
 #    STDOUT.puts "Increasing parralel build level to 50, because icecc is availible"
-#    Autobuild.parallel_build_level = 50
+#Autobuild.parallel_build_level = 30
 #end
