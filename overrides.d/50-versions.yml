@@ -1,0 +1,734 @@
+---
+- pkg_set:github:/auv-avalon/package_set.git:
+    branch: master
+    tag: 
+    commit: f9f92157fd23abd0a125e452718971bfcacfb228
+- pkg_set:github:/orocos-toolchain/autoproj.git:
+    branch: master
+    tag: 
+    commit: 74eb7a4929e509daa10d135d20e474de3fa3acf3
+- pkg_set:github:/rock-core/package_set.git:
+    branch: master
+    tag: 
+    commit: ca2f074cade2d91736ec99a0199fcf7c74463d8d
+- pkg_set:github:/rock-core/rock-package_set.git:
+    branch: master
+    tag: 
+    commit: 6a8866884c162824af61ccf09afd834278218066
+- pkg_set:github:/rock-simulation/package_set.git:
+    branch: master
+    tag: 
+    commit: 80be8171bc2ec2056fde07f4febf244dfeb60760
+- pkg_set:github:/rock-tutorials/package_set.git:
+    branch: master
+    tag: 
+    commit: 3e7387f6de36a17e71a8efc4e0988ae6792c6783
+- pkg_set:spacegit:/avalon/package_set.git:
+    branch: master
+    tag: 
+    commit: 3ef8aa07317e03371dd39b27b6efe73761468913
+- pkg_set:spacegit:/compilerspeedup/package_set.git:
+    branch: master
+    tag: 
+    commit: 15eabb686add1e7abc57ba3ce8f265d043ce21cc
+- pkg_set:spacegit:/rock-dfki/package_set.git:
+    branch: master
+    tag: 
+    commit: 50cf5b17454b3931002e7a35f24d4b57e9d59d02
+- auv_avalon/arc_driver:
+    branch: master
+    tag: 
+    commit: 5d1601f36872acba429a63067c0262b816f517b9
+- auv_avalon/dsp_acoustics:
+    branch: master
+    tag: 
+    commit: 379563465ed2fc0ed0446528caff0b32849881ee
+- auv_avalon/low_level_driver:
+    branch: master
+    tag: 
+    commit: 7d1df96521055024f1b3c768bcab8cad44df9337
+- auv_avalon/machine_learning:
+    branch: master
+    tag: 
+    commit: 26e09b1d92f4fa285efb314c473ba7a91666f5ba
+- auv_avalon/modemdriver_tritech:
+    branch: master
+    tag: 
+    commit: 541ebd9f0fcccac7bdfe5c9648a41b2dac2aa3b8
+- auv_avalon/orogen/avalonControl:
+    branch: master
+    tag: 
+    commit: ff198805bf3dcfa404a3105fb505ed9780812ab4
+- auv_avalon/orogen/avalon_back:
+    branch: master
+    tag: 
+    commit: 8366d1eb4552e436e44747b5910570834328f1b7
+- auv_avalon/orogen/avalon_front:
+    branch: master
+    tag: 
+    commit: e59e4f96daeb19c956e5cf94fb61ac38c8b61d81
+- auv_avalon/orogen/battery_watcher:
+    branch: master
+    tag: 
+    commit: a1014c7e5696b936411483f41ed2fb28e940d28e
+- auv_avalon/orogen/buoy:
+    branch: master
+    tag: 
+    commit: 84d809f81591af1173b53946b80ff90c11b10464
+- auv_avalon/orogen/lights:
+    branch: master
+    tag: 
+    commit: c45fa29bc770a2a4c2cdb5978918945a9395cac1
+- auv_avalon/orogen/low_level_driver:
+    branch: master
+    tag: 
+    commit: f09a152f567b3f7f1ecd1ba5d643859386ec4308
+- auv_avalon/orogen/modemCanReader:
+    branch: master
+    tag: 
+    commit: 62932537ca6aff06ca9a3fa05b478a4e3bdb2441
+- auv_avalon/orogen/modemdriver_tritech:
+    branch: master
+    tag: 
+    commit: 0510937a2d7535d576e204f0bff4e4c6eb5f45ef
+- auv_avalon/orogen/rawControlCommandConverter:
+    branch: master
+    tag: 
+    commit: fa8f1d373926d4488dff0c63cd56a4058c2dc5b7
+- auv_avalon/orogen/sonar_feature_detector:
+    branch: master
+    tag: 
+    commit: 0fc20014c5b4412be45cc5ce10de6b80f208b4af
+- auv_avalon/orogen/sonar_feature_estimator:
+    branch: master
+    tag: 
+    commit: 7ff3ae97d8971b8fb013e7997ed90621282aced5
+- auv_avalon/orogen/sonar_structure_servoing:
+    branch: master
+    tag: 
+    commit: 43310faeb78df0453fbe225d16dfc36cadb63d3e
+- auv_avalon/orogen/sonar_wall_hough:
+    branch: master
+    tag: 
+    commit: c7337d61923b216d8fb43c627ac6aa557d549723
+- auv_avalon/orogen/uw_particle_localization:
+    branch: master
+    tag: 
+    commit: b445d294ac611222e795fcc1468da6c2bfa9c036
+- auv_avalon/orogen/wall_orientation_correction:
+    branch: master
+    tag: 
+    commit: 06b000275c7dac257f71a800098feb7244757ca0
+- auv_avalon/orogen/wall_servoing:
+    branch: master
+    tag: 
+    commit: 97461a7438ca60872e26464be20e43730a2c2e3a
+- auv_avalon/sonar_detectors:
+    branch: master
+    tag: 
+    commit: eeb8c053a2b50f07c88a759b9402c60e832b7e9c
+- auv_avalon/sonar_wall_hough:
+    branch: master
+    tag: 
+    commit: 5d4637017d7a5e642cdafd11d04546dd7923df44
+- auv_avalon/uw_localization:
+    branch: master
+    tag: 
+    commit: b7ea39a4dff71c95b1ff339087e5c7b99119e7be
+- auv_avalon/visual_detectors:
+    branch: master
+    tag: 
+    commit: b30c82d2a7cc39e5e967ebe9f94f7c83a2fff948
+- avalon/arc-ocu:
+    branch: version2
+    tag: 
+    commit: 3a14048378632cfef69d7b4a2b55aaaf4f915a37
+- avalon/communication:
+    branch: master
+    tag: 
+    commit: f737c988c7e35781942b93d17bf25d6aebd56ef1
+- avalon/nlopt:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://ab-initio.mit.edu/nlopt/nlopt-2.4.1.tar.gz
+- avalon/orogen/auv_waypoint_navigator:
+    branch: master
+    tag: 
+    commit: 08f93117cb89b7822d687fb9c8c8da85d4c2947f
+- avalon/orogen/depth_map:
+    branch: master
+    tag: 
+    commit: aec30ac98403ebffc4f74ef2cb97689d050f51c0
+- avalon/orogen/depth_reader:
+    branch: master
+    tag: 
+    commit: 2a25b64502fc06ef0882062603dba54d2cee8455
+- avalon/orogen/gps_helper:
+    branch: master
+    tag: 
+    commit: b7cb7237c79962d1edffa9b1e2fef80e0d418aa2
+- avalon/orogen/hsv_mosaicing:
+    branch: master
+    tag: 
+    commit: 393bccf4e3a39be3bd8678d2c4692b1863bb93d5
+- avalon/orogen/rear_sonar_distance_estimator:
+    branch: master
+    tag: 
+    commit: 5df54e00112eefd9a731f2ddf684dff566f20d50
+- avalon/orogen/structure_reconstruction:
+    branch: master
+    tag: 
+    commit: dfbe7eee1ddb85d785bd068322974501e21458de
+- avalon/orogen/structure_servoing:
+    branch: master
+    tag: 
+    commit: 316c91b363dbc73bfa8c1506cb2e8d0453e2b2a8
+- avalon/orogen/sysmon:
+    branch: master
+    tag: 
+    commit: 61c4e6a8cbc73bcf198a268cf9937b296c5201d4
+- base/admin_scripts:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- base/cmake:
+    branch: master
+    tag: 
+    commit: f3a57b0a91147584ec0ad4163b8b72304708af2e
+- base/console_bridge:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/numeric:
+    branch: master
+    tag: 
+    commit: 022dea9b0f310ae3ed36d7d2faecd9066ce2e37d
+- base/orogen/std:
+    branch: master
+    tag: 
+    commit: ba7de811e440c5512623947af2db5e4d90ae687d
+- base/orogen/types:
+    branch: master
+    tag: 
+    commit: 091b3fbd90fe8b84625ae11448550c1da75e67b0
+- base/scripts:
+    branch: master
+    tag: 
+    commit: ec047196f7c9707f58a8eecca3d4ee04850df1aa
+- base/templates/bundle:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/cmake_lib:
+    branch: master
+    tag: 
+    commit: c50873b10da17d151e82677cac5316af663f994c
+- base/templates/cmake_vizkit_widget:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/doc:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/ruby_lib:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/templates/vizkit3d_plugin:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- base/types:
+    branch: master
+    tag: 
+    commit: cbe83055a2200dbc2bf274c707ca4bb340f67581
+- bundles/auv:
+    branch: master
+    tag: 
+    commit: b965f942856aa5fdc2a892e64c5ace908287d8ae
+- bundles/avalon:
+    branch: master
+    tag: 
+    commit: 853d1684ed4b51a44364f876c8d695e713f5cfb7
+- bundles/rock:
+    branch: orogen_loaders
+    tag: 
+    commit: fd0a8ce2f4b5ec02fc5429605b828742b950709c
+- bundles/rock.dfki:
+    branch: master
+    tag: 
+    commit: b37eabfb1856a46a61678ef75b5d1fdc8dfe3771
+- bundles/sauce:
+    branch: master
+    tag: 
+    commit: f5c574f5b163684d0950cb440317215ec516db14
+- control/joint_dispatcher:
+    branch: master
+    tag: 
+    commit: b5eb1abf077d523c2138f39b2df51dafa3679530
+- control/motor_controller:
+    branch: master
+    tag: 
+    commit: 53ed93058b52a651a062fca90f430d65a3f7c951
+- control/orogen/auv_control:
+    branch: sauce-cleanup
+    tag: 
+    commit: edb3a2384c0369fd961a47c6f798877a53780e84
+- control/orogen/auv_rel_pos_controller:
+    branch: master
+    tag: 
+    commit: 5a7e9f8f7e42c38a523a7352c4b3fa9bbb69c09c
+- dagon/uwv_dynamic_model:
+    branch: avalon
+    tag: 
+    commit: 905d0cbb3f629fa3471abb7eaa62d335bbdbd38e
+- drivers/actuator_dispatcher:
+    branch: master
+    tag: 
+    commit: 0c428922f19c55707ef7ae2b7afd44cd271791c2
+- drivers/aggregator:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/base_schilling:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/camera_interface:
+    branch: master
+    tag: 
+    commit: 069f99c1a337625edc85dbb294658d6913f46850
+- drivers/camera_prosilica:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/camera_unicap:
+    branch: master
+    tag: 
+    commit: b42343dc6ac77921af9f1ba2e7e81f9f5359b51b
+- drivers/canbus:
+    branch: master
+    tag: 
+    commit: c4d75f5bce39c04e13119f71f81052bf1ddaa3dd
+- drivers/controldev:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/dynamixel:
+    branch: master
+    tag: 
+    commit: a10bb0a40c03ff65281dde47979a24ee68f27d10
+- drivers/fog_kvh:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- drivers/hbridge:
+    branch: master
+    tag: 
+    commit: f0d01c5e88688d98b0f1f870cfd6cc2b2889f69f
+- drivers/iodrivers_base:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- drivers/mb500:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/orogen/aggregator:
+    branch: master
+    tag: 
+    commit: b08c438d0463a5a1eccc613a52460fe1289d0546
+- drivers/orogen/camera_base:
+    branch: master
+    tag: 
+    commit: 06a4fb0deeaa9e0803bc4c0141b2f839ce7ed50b
+- drivers/orogen/camera_prosilica:
+    branch: master
+    tag: 
+    commit: 2a040b190bf164357b903ccf15b94f9933d4fa02
+- drivers/orogen/camera_unicap:
+    branch: master
+    tag: 
+    commit: 79637f7cd958f4fe3293ae842bcb421487761fb0
+- drivers/orogen/canbus:
+    branch: master
+    tag: 
+    commit: 13ef32ae34ac0c7e87446714c1bedc02b74172db
+- drivers/orogen/controldev:
+    branch: master
+    tag: 
+    commit: 9a23bc94118a9a3efe0537222297cd6654fc410e
+- drivers/orogen/dynamixel:
+    branch: master
+    tag: 
+    commit: 5f336674c3b22d9b78cb0fbb5ba317e432475ba6
+- drivers/orogen/fog_kvh:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- drivers/orogen/gps:
+    branch: master
+    tag: 
+    commit: 28c8f5e30558af7611f6f88969471969214e9bb2
+- drivers/orogen/hbridge:
+    branch: writer_is_a_reader
+    tag: 
+    commit: 8a2a672bb9759e2beda2134c4aa19dbc446a2f9d
+- drivers/orogen/sonar_blueview:
+    branch: master
+    tag: 
+    commit: 593d98e3ddc075bf34602505da209f68025ebcbd
+- drivers/orogen/sonar_tritech:
+    branch: master
+    tag: 
+    commit: 021cb9e44d37f18ea0b34c2e444e622ff4efab74
+- drivers/orogen/task_scheduler:
+    branch: master
+    tag: 
+    commit: d5c2d8c8a6a796907c3098e53a10572b5151b1f2
+- drivers/orogen/taskmon:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- drivers/orogen/transformer:
+    branch: master
+    tag: 
+    commit: 4fbcdca2eed590320af999c41da3afa440a5bde7
+- drivers/orogen/video_streamer_vlc:
+    branch: master
+    tag: 
+    commit: 01678b06da4bde3b0788052e5ec84b120c325162
+- drivers/orogen/xsens_imu:
+    branch: master
+    tag: 
+    commit: 8c43c2554ca0c3ce52d8f14bda5454285316f6bc
+- drivers/sonar_blueview:
+    branch: master
+    tag: 
+    commit: 039b9705aeb457e25caa0f1916a89f527f1db1de
+- drivers/sonar_tritech:
+    branch: master
+    tag: 
+    commit: e27332074a0bc4d0f4fb0720bcade140fb38f826
+- drivers/transformer:
+    branch: master
+    tag: 
+    commit: 4f482da443cb488288651a3f58c90495016915d0
+- drivers/video_capture_vlc:
+    branch: master
+    tag: 
+    commit: b9380c694bb01204af92a032a65ef92f444874fe
+- drivers/video_streamer_vlc:
+    branch: master
+    tag: 
+    commit: 5a80dc3fa4ff0234b3e58ad9d36f552a625d4989
+- drivers/xsens_imu:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- external/minizip:
+    mode: 3
+    no_subdirectory: true
+    archive_dir: 
+    url: http://www.winimage.com/zLibDll/unzip11.zip
+- external/sisl:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: https://github.com/SINTEF-Geometry/SISL/archive/SISL-4.6.0.tar.gz
+- external/unicap:
+    branch: master
+    tag: 
+    commit: 24db7b1a035d32240c25fce46f321985abe2a15c
+- external/yaml-cpp:
+    mode: 1
+    no_subdirectory: false
+    archive_dir: 
+    url: http://yaml-cpp.googlecode.com/files/yaml-cpp-0.3.0.tar.gz
+- gui/rock_webapp:
+    branch: master
+    tag: 
+    commit: aa46fc2f8769d587d9417edeea3c99225e707510
+- gui/rock_widget_collection:
+    branch: master
+    tag: 
+    commit: a80b8d4cc2f41e1c2044d4d4232d892e43ac512e
+- gui/vizkit:
+    branch: master
+    tag: 
+    commit: 77dee5367e8989292437969e790381754f5d3e89
+- gui/vizkit3d:
+    branch: master
+    tag: 
+    commit: cbc640c80738fa877cb172c8577603afe4b3b83a
+- image_processing/cv_detectors:
+    branch: master
+    tag: 
+    commit: 8effcb72d4d4453c260b28b89ae352a4446ccfb2
+- image_processing/offshore_pipeline_detector:
+    branch: master
+    tag: 
+    commit: 6af617b03eb7caeed39d1ffe0547fa2d2b671e82
+- image_processing/opensfm:
+    branch: master
+    tag: 
+    commit: 989686bd10004ac10dd84e304663e47d778ddfca
+- image_processing/orogen/frame_demultiplexer:
+    branch: master
+    tag: 
+    commit: dc3d32a43af0d00c48d9d82bd49a61182dbd4efd
+- image_processing/orogen/line_scanner:
+    branch: master
+    tag: 
+    commit: 64335b6b27d5e9688826fa90d3dc85c33806006c
+- image_processing/orogen/offshore_pipeline_detector:
+    branch: avalon
+    tag: 
+    commit: 7f12c59e05c0a76a792f5e1e8887cad352605c26
+- image_processing/orogen/pipeline_inspection:
+    branch: master
+    tag: 
+    commit: 0dd69fd168371eda381d3d0c0140ca199ebbc260
+- image_processing/orogen/structured_light:
+    branch: master
+    tag: 
+    commit: 7c729fc36f2ef355192c2127c73924c0988f92d4
+- image_processing/pipeline_inspection:
+    branch: master
+    tag: 
+    commit: f316b89ffc9ed7a29775dbd91674b8cbd26c378e
+- image_processing/structured_light:
+    branch: master
+    tag: 
+    commit: e467e67b9e1aaa9c250eb0f9bb3749c043612860
+- knowledge_reasoning/factpp:
+    revision: 1698
+- knowledge_reasoning/owlapi:
+    branch: master
+    tag: 
+    commit: 1dee24e2dba0238b0fb5dfb818b9555457014ddd
+- orogen:
+    branch: master
+    tag: 
+    commit: b28bdfad90be496203538e52726ba8e4cb7a1901
+- perception/frame_helper:
+    branch: master
+    tag: 
+    commit: 05ef53ff476b813709cd925cbc96cadf1f09da33
+- perception/jpeg_conversion:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- perception/orogen/image_preprocessing:
+    branch: master
+    tag: 
+    commit: 7d6d16c92de51d129b45e2b205842c3538e17be5
+- rtt:
+    branch: master
+    tag: v2.8.1
+    commit: 
+- rtt_typelib:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- scripts:
+    branch: master
+    tag: 
+    commit: 0ef44ab2106ac6d9475a8e96027001e10a38d493
+- simulation/configmaps:
+    branch: master
+    tag: 
+    commit: cab02976b6dd2771b89b30c2d492e5258cc84ed4
+- simulation/lib_manager:
+    branch: master
+    tag: 
+    commit: 36d5a628030d9101335f823889a96bf2d6f5c6c9
+- simulation/mars-plugins/avalon-plugin:
+    branch: master
+    tag: 
+    commit: 67d68b6c80f2fb3b72dccdec81f19177c274be94
+- simulation/mars-plugins/marsusim:
+    branch: master
+    tag: 
+    commit: 6ba2b0ddaa9fa9f65d1408b5dbdd573f4d6a2335
+- simulation/mars/app:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/cfg_manager:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/data_broker:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/gui/cfg_manager_gui:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/gui/data_broker_gui:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/gui/lib_manager_gui:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/gui/main_gui:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/common/utils:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/graphics:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/gui:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/interfaces:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/plugins/connexion_plugin:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/scene_loader:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/scripts/cmake:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/mars/sim:
+    branch: master
+    tag: 
+    commit: 5d6c1a08ee6297e0a07af85cb7592d4d830276fa
+- simulation/ode:
+    mode: 2
+    no_subdirectory: false
+    archive_dir: 
+    url: http://freefr.dl.sourceforge.net/project/opende/ODE/0.12/ode-0.12.tar.bz2
+- simulation/orogen/avalon_simulation:
+    branch: master
+    tag: 
+    commit: 80bc4a4fce5d495ef41d31363b1d2510614dffc5
+- simulation/orogen/mars:
+    branch: master
+    tag: 
+    commit: ad21f83b2258e475e0fac330671b997e1208e5d4
+- simulation/osgOcean:
+    branch: master
+    tag: 
+    commit: e084b9e5cea6ee9913124d440b2c06e91bac1930
+- slam/ceres_solver:
+    branch: master
+    tag: 
+    commit: 070bba4b43b4b7449628bf456a10452fd2b34d28
+- slam/g2o:
+    revision: 54
+- slam/mtk:
+    branch: master
+    tag: 
+    commit: cb2bf995a305c58a24ceffa9324971d394704834
+- slam/orogen/auv_helper:
+    branch: master
+    tag: 
+    commit: 88561d2a6d25b2a49eca11d8bf03aa68d61fc933
+- slam/orogen/orientation_estimator:
+    branch: rewrite_ikf_estimator
+    tag: 
+    commit: 4458872e80b653dfaad3ba88c095f03c39ae6657
+- slam/orogen/pose_estimation:
+    branch: master
+    tag: 
+    commit: 4dad64cba49e9d798791593feca5df41825b93d4
+- slam/pose_estimation:
+    branch: master
+    tag: 
+    commit: 877ff700758de12e9c461672056c45c614c29438
+- slam/quater_ikf:
+    branch: master
+    tag: 
+    commit: d8637dd780450718c15e8aed26b8d9a84fddc53b
+- slam/quater_ukf:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- tools/class_loader:
+    branch: indigo-devel
+    tag: 
+    commit: 2a075a23d1a97ffd80227829b79165cda777ed3e
+- tools/log_tools:
+    branch: master
+    tag: 
+    commit: f3a1c3d2ddb5f2ca84b7866f4eb9b3c51db36a24
+- tools/logger:
+    branch: master
+    tag: 
+    commit: 98cdb73a4d90c585695f469187be87a41e20c601
+- tools/metaruby:
+    branch: master
+    tag: 
+    commit: d570fe9469e3518df611bc88a4a9e1faa48a5aa3
+- tools/orocos.rb:
+    branch: master
+    tag: 
+    commit: 42dd29e962d78a2326753e02b9597e8f00e8dee4
+- tools/orogen_metadata:
+    branch: master
+    tag: 
+    commit: bc808df068ab17ecb1e4e3a3f97d8d2d29e48b9a
+- tools/pocolog:
+    branch: master
+    tag: 
+    commit: 7fb350a230a53814e9b01c5fadb116e11ecfbd32
+- tools/pocolog_cpp:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- tools/rest_api:
+    branch: master
+    tag: 
+    commit: 4bf518e169ba2acbcca1774c25832796de0f1dd4
+- tools/roby:
+    branch: master
+    tag: 
+    commit: 47dec142df9c4871eb4ef580982bd4801d129f73
+- tools/rubigen:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- tools/service_discovery:
+    branch: master
+    tag: 
+    commit: 8f63bdb64c7c5e01ace0f6df280ff1f43aac2040
+- tools/syskit:
+    branch: orogen_loaders
+    tag: 
+    commit: 0492f6acc7f826f3548807911e2c6226f12cb9d9
+- tools/telemetry:
+    branch: master
+    tag: rock-15.05
+    commit: 
+- typelib:
+    branch: master
+    tag: 
+    commit: 64a309d118b54367fdfbd373cf18f1fe653cfa42
+- utilmm:
+    branch: master
+    tag: rock-14.08
+    commit: 
+- utilrb:
+    branch: master
+    tag: 
+    commit: 8f9f3e575f0c22b69c2cd38058ac1e8cb17e3177
