@@ -26,6 +26,7 @@ layout:
   - auv_avalon/arc_driver
   - scripts
   - knowledge_reasoning/owlapi 
+  - tools/graph_analysis 
 exclude_packages:
 
 ignored_packages:

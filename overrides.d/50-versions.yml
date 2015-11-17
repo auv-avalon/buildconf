@@ -6,7 +6,7 @@
 - pkg_set:github:/orocos-toolchain/autoproj.git:
     branch: master
     tag: 
-    commit: 74eb7a4929e509daa10d135d20e474de3fa3acf3
+    commit: 71c675bbb92d33fedfbd4f846e52877aa3f5f720
 - pkg_set:github:/rock-core/package_set.git:
     branch: master
     tag: 
@@ -479,10 +479,10 @@
     branch: master
     tag: 
     commit: dc3d32a43af0d00c48d9d82bd49a61182dbd4efd
-- image_processing/orogen/line_scanner:
-    branch: master
-    tag: 
-    commit: 64335b6b27d5e9688826fa90d3dc85c33806006c
+#- image_processing/orogen/line_scanner:
+#    branch: master
+#    tag: 
+#    commit: 64335b6b27d5e9688826fa90d3dc85c33806006c
 - image_processing/orogen/offshore_pipeline_detector:
     branch: avalon
     tag: 
@@ -491,10 +491,10 @@
     branch: master
     tag: 
     commit: 0dd69fd168371eda381d3d0c0140ca199ebbc260
-- image_processing/orogen/structured_light:
-    branch: master
-    tag: 
-    commit: 7c729fc36f2ef355192c2127c73924c0988f92d4
+#- image_processing/orogen/structured_light:
+#    branch: master
+#    tag: 
+#    commit: 7c729fc36f2ef355192c2127c73924c0988f92d4
 - image_processing/pipeline_inspection:
     branch: master
     tag: 

@@ -63,7 +63,11 @@ if Socket.gethostname == "avalon-rear" or Socket.gethostname == "avalon"
         ignore ".*structured_light"
 end
 
-    
+Autoproj.post_import do |pkg|
+    if pkg.kind_of?(Autobuild::CMake)
+        pkg.define 'ROCK_USE_CXX11','true'
+    end
+end
 #checking out the new version of yaml for avalon
 #setup_package 'external/yaml-cpp' do |pkg|
 #    pkg.define("BUILD_SHARED_LIBS","ON")

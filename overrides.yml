@@ -29,7 +29,8 @@ overrides:
       commit: 021cb9e44d37f18ea0b34c2e444e622ff4efab74
   - drivers/sonar_tritech:
       commit: e27332074a0bc4d0f4fb0720bcade140fb38f826 
-
+  - image_processing/orogen/line_scanner:
+      branch: NIL-TASK-MOCUP
 #  - orogen:
 #      branch: orogen_loaders
 #  - tools/orocos.rb:
