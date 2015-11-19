@@ -688,10 +688,10 @@
     branch: master
     tag: 
     commit: bc808df068ab17ecb1e4e3a3f97d8d2d29e48b9a
-- tools/pocolog:
-    branch: master
-    tag: 
-    commit: 7fb350a230a53814e9b01c5fadb116e11ecfbd32
+#- tools/pocolog:
+#    branch: master
+#    tag: 
+#    commit: 7fb350a230a53814e9b01c5fadb116e11ecfbd32
 - tools/pocolog_cpp:
     branch: master
     tag: rock-15.05
