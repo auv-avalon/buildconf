@@ -1,8 +1,8 @@
 ---
-- pkg_set:github:/auv-avalon/package_set.git:
-    branch: master
-    tag: 
-    commit: f9f92157fd23abd0a125e452718971bfcacfb228
+#- pkg_set:github:/auv-avalon/package_set.git:
+#    branch: master
+#    tag: 
+#    commit: f9f92157fd23abd0a125e452718971bfcacfb228
 - pkg_set:github:/orocos-toolchain/autoproj.git:
     branch: master
     tag: 
@@ -23,10 +23,10 @@
     branch: master
     tag: 
     commit: 3e7387f6de36a17e71a8efc4e0988ae6792c6783
-- pkg_set:spacegit:/avalon/package_set.git:
-    branch: master
-    tag: 
-    commit: 3ef8aa07317e03371dd39b27b6efe73761468913
+#- pkg_set:spacegit:/avalon/package_set.git:
+#    branch: master
+#    tag: 
+#    commit: 3ef8aa07317e03371dd39b27b6efe73761468913
 - pkg_set:spacegit:/compilerspeedup/package_set.git:
     branch: master
     tag: 

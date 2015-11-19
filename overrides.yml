@@ -63,7 +63,8 @@ overrides:
       url: https://github.com/auv-avalon/tools-syskit.git
       push_to: git@github.com:auv-avalon/tools-syskit.git 
       branch: orogen_loaders
-
+  - tools/graph_analysis:
+      branch: using_c++11_stdlib
   #Otherwise orogen_loaders it not to master compatible anymore
 #  - base/types:
 #      commit: f06e7f335aa39030af3b8a133e27ba50c7ff9696
